@@ -1,0 +1,40 @@
+/* 1. Google Poppins Font ko Import Kiya */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  /* Sia Travels Brand Colors */
+  --color-brand-primary: #4c1d95; /* Purple-900 */
+  --color-brand-light: #ffffff;   /* White */
+  --color-brand-accent: #7c3aed;  /* Purple-600 */
+
+  /* 2. Poppins Font ko Default Sans Font Banaya */
+  --font-sans: 'Poppins', sans-serif;
+}
+
+/* Custom Reusable Component Classes */
+@utilities btn-primary {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-light);
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+@utilities btn-primary:hover {
+  background-color: var(--color-brand-accent);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.5);
+
+}
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
