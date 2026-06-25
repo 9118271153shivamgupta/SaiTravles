@@ -22,9 +22,9 @@ const Navbar = () => {
             {/* Logo Section */}
             <Link to="/" className="flex items-center gap-3 shrink-0">
               <img 
-                src="/logo.jpg" 
+                src="/logo.jpeg" 
                 alt="Sia Travels Logo" 
-                className="h-19 w-25 object-cover rounded-full border-2 border-purple-100 shadow-inner"
+                className="h-18 w-28 object-cover rounded-full border-2 border-purple-100 shadow-inner"
                 // FIX: e.target ki jagah e.currentTarget use kiya taaki reliable ho
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
               />

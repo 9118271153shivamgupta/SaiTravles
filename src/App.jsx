@@ -14,6 +14,7 @@ import CabBooking from './pages/CabBooking'
 import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
 import Certificate from './pages/Certificate'
+import TourDetailsPage from './pages/TourDetailsPage'
 
 const App = () => {
   return (
@@ -38,6 +39,8 @@ const App = () => {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/certificate" element={<Certificate />} />
+        {/* <Route path="/domestic" element={<DomesticTour />} /> Naya Component Link Kiya */}
+      <Route path="/tour/:tourId" element={<TourDetailsPage />} />
       </Routes>
     </div>
   )

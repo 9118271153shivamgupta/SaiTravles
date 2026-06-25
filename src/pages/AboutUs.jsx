@@ -81,8 +81,8 @@ const AboutUs = () => {
           <span className="bg-amber-400/20 text-amber-300 font-bold tracking-widest text-xs px-4 py-1.5 rounded-full uppercase border border-amber-400/30">
             Know Our Journey
           </span>
-          <h1 className="text-4xl md:text-6xl font-black tracking-tight uppercase mt-4 mb-3">
-            About Sia Travels
+          <h1 className="text-4xl md:text-6xl font-black tracking-tight  mt-4 mb-3">
+            About  Shree Sai Travels
           </h1>
           <p className="text-purple-200 text-sm md:text-base max-w-xl mx-auto font-medium leading-relaxed">
             Your Trusted Partner for Safe, Comfortable, and Memorable Journeys Across India & Nepal.
@@ -100,13 +100,13 @@ const AboutUs = () => {
           </h2>
           <div className="space-y-4 text-slate-600 text-sm md:text-base leading-relaxed font-medium">
             <p>
-              Sia Travels is a professional and trusted travel service company, established with the aim of providing safe, comfortable and timely travel facilities to the travelers. We provide our services from Gorakhpur all over India and Nepal and provide a reliable solution for all types of travel needs.
+              Sai Travels is a professional and trusted travel service company, established with the aim of providing safe, comfortable and timely travel facilities to the travelers. We provide our services from Gorakhpur all over India and Nepal and provide a reliable solution for all types of travel needs.
             </p>
             <p>
-              We believe that travel is not just a means of getting from one place to another, but it is an experience. Therefore Sia Travels gives individual attention to every customer and tailors the travel plan as per his need, budget and time. Our priority is customer safety, convenience and satisfaction.
+              We believe that travel is not just a means of getting from one place to another, but it is an experience. Therefore Sai Travels gives individual attention to every customer and tailors the travel plan as per his need, budget and time. Our priority is customer safety, convenience and satisfaction.
             </p>
             <p className="border-l-4 border-amber-400 bg-amber-50/50 p-4 rounded-r-xl font-semibold text-purple-950">
-              Clean and well-maintained vehicles, experienced and courteous drivers, and transparent fare policy—this is what defines us. Sia Travels aims to make every trip stress-free, safe and memorable.
+              Clean and well-maintained vehicles, experienced and courteous drivers, and transparent fare policy—this is what defines us. Sai Travels aims to make every trip stress-free, safe and memorable.
             </p>
           </div>
         </section>
@@ -139,34 +139,7 @@ const AboutUs = () => {
         </section>
 
         {/* --- RELIGIOUS TOUR PACKAGES SECTION --- */}
-        <section className="bg-gradient-to-br from-purple-900 to-purple-950 rounded-3xl p-8 md:p-12 text-white shadow-xl relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl"></div>
-          <div className="relative z-10 space-y-6">
-            <h2 className="text-2xl md:text-3xl font-extrabold text-amber-300 tracking-tight flex items-center gap-2">
-              <ShieldCheck className="w-7 h-7 text-amber-300" />
-              Religious Tour Packages
-            </h2>
-            <p className="text-purple-100 text-sm md:text-base font-medium leading-relaxed max-w-4xl">
-              Sia Travels is especially known for religious trips. We strive to provide devotees with a serene, safe and streamlined travel experience, so that they can fully concentrate on their faith and devotion. Major religious places we provide services for include:
-            </p>
-
-            {/* Badges Layout */}
-            <div className="flex flex-wrap gap-2.5 pt-4">
-              {religiousPlaces.map((place, idx) => (
-                <span 
-                  key={idx} 
-                  className="bg-white/10 hover:bg-white hover:text-purple-950 border border-white/10 text-slate-100 text-xs font-bold px-4 py-2 rounded-xl transition-all duration-200 shadow-sm cursor-default"
-                >
-                  ✨ {place}
-                </span>
-              ))}
-            </div>
-
-            <p className="text-xs md:text-sm text-amber-200/90 font-medium italic pt-4 border-t border-white/10">
-              "During religious tours we ensure safe vehicles, experienced drivers, comfortable travel and punctuality, making the journey simple and enjoyable."
-            </p>
-          </div>
-        </section>
+        
 
         {/* --- MISSION & WHY CHOOSE US SIDE-BY-SIDE --- */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -179,7 +152,7 @@ const AboutUs = () => {
                 Our Mission
               </h2>
               <p className="text-xs md:text-sm text-slate-500 font-medium mb-6 leading-relaxed">
-                Sia Travels's mission is to provide high quality, safe and reliable travel services to travelers. We believe in completing each journey with full responsibility and honesty. Our mission is based on the following points:
+                Sai Travels's mission is to provide high quality, safe and reliable travel services to travelers. We believe in completing each journey with full responsibility and honesty. Our mission is based on the following points:
               </p>
               <ul className="space-y-3">
                 {missionPoints.map((point, index) => (
@@ -197,10 +170,10 @@ const AboutUs = () => {
             <div>
               <h2 className="text-2xl font-extrabold text-purple-950 tracking-tight mb-4 flex items-center gap-2">
                 <Award className="w-5 h-8 text-purple-600 shrink-0" />
-                Why Choose Sia Travels?
+                Why Choose  Shree Sai Travels?
               </h2>
               <p className="text-xs md:text-sm text-slate-500 font-medium mb-6 leading-relaxed">
-                There are many strong reasons behind choosing Sia Travels, which make us different from other travel services:
+                There are many strong reasons behind choosing Sai Travels, which make us different from other travel services:
               </p>
               <div className="space-y-4">
                 {whyChooseUs.map((item, index) => (
