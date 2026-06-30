@@ -33,43 +33,78 @@ export const tourData = [
       },
     
     ],
-    popularPlaces: [
-      { name: "Spiritual Sojourn to Gujarat", image: "https://dpauls.com/india-holidays/spiritual-sojourn-to-gujarat/dp320/", details: "The massive white salt desert known for Rann Utsav." },
-      { name: "Gir National Park", image: "https://images.unsplash.com/photo-1615959189197-48400dc2528a?auto=format&fit=crop&w=300&q=80", details: "The exclusive and proud home of Asiatic Lions in India." },
-      { name: "Statue of Unity", image: "https://images.unsplash.com/photo-1599930113854-d6d7fd521f10?auto=format&fit=crop&w=300&q=80", details: "The tallest statue in the world dedicated to Sardar Patel." },
-      { name: "Somnath Temple", image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=300&q=80", details: "The sacred first among the twelve holy Jyotirlinga shrines." }
-    ]
+   popularPlaces: [
+  { 
+    name: "Dwarkadhish Temple, Dwarka", 
+    image: "/gujarat/1.jpg", 
+    details: "The sacred ancient temple dedicated to Lord Krishna, standing on the banks of Gomti River." 
+  },
+  { 
+    name: "Little Rann of Kutch", 
+    image: "/gujarat/2.jpg", 
+    details: "A unique salt marsh landscape famous as the world's last refuge for the Indian Wild Ass." 
+  },
+  { 
+    name: "Bet Dwarka & Nageshwar", 
+    image: "/gujarat/3.jpg", 
+    details: "An island destination reached by boat, featuring historic shrines and pristine coastal vibes." 
+  },
+  { 
+    name: "Somnath Jyotirlinga Temple", 
+    image: "/gujarat/4.jpg", 
+    details: "The legendary first among the twelve holy Jyotirlinga shrines, located right on the Arabian Sea coast." 
+  },
+  { 
+    name: "Diu Fort & Beaches", 
+    image: "/gujarat/5.jpg", 
+    details: "A beautiful coastal union territory known for its colonial Portuguese fort and serene, sandy beaches." 
+  },
+  { 
+    name: "Gir National Park", 
+    image: "/gujarat/6.jpg", 
+    details: "The ultimate wildlife sanctuary and the exclusive, proud home of Asiatic Lions in India." 
+  },
+  { 
+    name: "Lothal Ancient Ruins", 
+    image: "/gujarat/7.jpg", 
+    details: "A major archaeological site showcasing the world's oldest known dockyard from the Indus Valley Civilization." 
+  }
+]
+
   },
   {
     id: "kerala",
     category: "domestic",
-    title: "Kerala",
+    title: "Kerala Tour",
     image: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=600&q=80",
     price: "₹18,500",
     duration: "6 Days / 5 Nights",
     description: "Experience God's Own Country with serene backwaters, houseboats, and lush tea gardens.",
-    overview: "Kerala, famously referred to as 'God's Own Country', is a tropical paradise located on India's southwestern Malabar Coast. It is celebrated globally for its palm-fringed emerald backwaters, pristine beaches, and misty hill stations like Munnar.",
+    overview: "Come explore the majestic, wild and scenic Kerala by trailing through the greens at Munnar, cruising through the pristine in Alleppey and by spotting the wild at Thekkady. Through this tour package you will get to experience of Kerala in a span of 6 days. So go ahead, block a week off and spend some luxurious time here.",
     itinerary: [
-      { title: "Arrival at Cochin & Drive to Munnar Hills", desc: "Arrive at Cochin airport/station. Instantly proceed on a scenic uphill drive to Munnar. Enroute capture views of Valara and Cheeyappara waterfalls tumbling through spice forests." },
-      { title: "Munnar Tea Plantation & Eravikulam Exploration", desc: "Explore the vast Mattupetty Dam, Echo Point, and Kundala Lake. Afternoon trek up inside Eravikulam National Park to witness the endangered Nilgiri Tahr mountain goats." },
-      { title: "Munnar to Thekkady Wild Safari Transit", desc: "Drive downhill to Thekkady (Periyar). Check in and visit local spice farming estates. Evening explore wildlife boating circuits inside Periyar Tiger Reserve lake networks." },
-      { title: "Thekkady to Alleppey Houseboat Check-In", desc: "Transit to Alleppey backwaters. Board a premium traditional luxury houseboat. Cruise past emerald green paddy layers and cozy coastal hamlets while savoring authentic Kerala lunches." },
-      { title: "Alleppey to Cochin Sightseeing Infrastructure", desc: "Disembark from houseboat and drive back to historic Cochin. Explore Fort Cochin urban areas, iconic Chinese Fishing Nets, Mattancherry Palace, and Jew Town bazaars." },
-      { title: "Cochin Souvenir Shopping & Departure Checkout", desc: "Morning free for purchasing premium local spices and handloom fabrics. Timely check out and drop transit to Cochin international terminal for return operations." }
+      { title: "Arrival at Cochin", desc: "Your tour across the scenic Kerala begins at Cochin. Once you arrive at the airport or railway station, our executives will come and take you to your pre-booked hotel. Once you reach the hotel, freshen up and sip a cup of coffee or tea. You can then head out to the nearby destinations for shopping." },
+      { title: "Towards the hills, Munnar (4 hours/16 minutes, 132.6 km)", desc: "After a sumptuous break, you head out for sightseeing across the city of Cochin. You will be taken through the remnants at Fort Kochi. You will also be taken to Marine drive and the famous museums here. Once you are done sightseeing in Cochin, our executives will drive you to Munnar. The temperature drops down as you near Munnar. Once you arrive here, head inside your cozy hotel room and rest for the night." },
+      { title: "Across the scenic hills in Munnar", desc: "One of the principle attractions of Munnar Neelakurinji (Strobilanthes kunthiana) is a bush that used to develop richly in the shola prairies of Western Ghats in India. The Nilgiris, which truly implies the blue mountains, got its name from the purplish blue blooms of Neelakurinji that blooms gregariously once in 12 years. Furthermore, the other fascination in Munnar is The Nilgiri Tahr. The Nilgiri Tahrs are stocky goats. Besides these, in Munnar you will also get the chance to trail through the lush green tea plantations. You can then head back to the hotel for the night." },
+      { title: " Towards the wild in Thekkady (3 hour, 11 minutes/ 91.5km)", desc: "After a sumptuous breakfast in the hotel, you will be heading to the wild destination in Kerala, Thekkady. At Thekkady, you will be mainly spending time the Periyar Nationa Reserve which is one of the most popular destination. Here, you will get the chance to partake in boating and spot different forms of wildlife. On this day you will be spending the night in a homestay close to the national reserve." },
+      { title: " To the backwater destination, Alleppey (3 hours, 52 minutes, 137 km)", desc: "After breakfast in the wild, today you head to beautiful Alleppey. Once you arrive at Alleppey, you can directly head to the houseboat, where you will be staying for the night. The houseboats are the main attractions of Alleppey, you get the chance to cruise through the backwaters as you leisurely rest in the houseboat." },
+      { title: "Back to Cochin (1 hour, 19 minutes, 53.0 km)", desc: "On day 6, your tour comes to an end. After some great breakfast in the houseboat, you checkout and head back to Cochin. Our executives will then drop you to the airport or railway station. With umpteen memories, we part our ways." }
     ],
     popularPlaces: [
-      { name: "Alleppey Backwaters", image: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=300&q=80", details: "Famous houseboat cruises across peaceful interconnected canals." },
-      { name: "Munnar Hills", image: "https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&w=300&q=80", details: "Lush green hill station rich in tea gardens and waterfalls." }
+      { name: "Alleppey Backwaters", image: "/kerla/6.jpg", details: "Famous houseboat cruises across peaceful interconnected canals." },
+      { name: "Munnar Hills Places", image: "/kerla/1.jpg", details: "This image shows a breathtaking natural landscape of mountains surrounded by a thick bed of clouds during sunset or sunrise." },
+      { name: "Cochine ", image: "/kerla/5.jpg", details: "This image captures the stunning architecture of the historic Edappally Church in Kerala, beautifully illuminated against a twilight sky." },
+      { name: " kochi to munnar A Private guided fullday tour with hotel pickup ", image: " /kerla/8.jpg", details: "The itinerary is customizable to suit your interests, whether that’s history, culture, religion, or nature.." },
+      { name: "Elixir Hills ", image: "/kerla/7.jpg", details: "Lush green hill station rich in tea gardens and waterfalls." },
     ]
   },
   {
     id: "odisha",
     category: "domestic",
-    title: "Odisha",
+    title: "Odisha Tour",
     image: "https://images.unsplash.com/photo-1599930113854-d6d7fd521f10?auto=format&fit=crop&w=600&q=80",
     price: "₹12,499",
     duration: "4 Days / 3 Nights",
-    description: "Discover the rich architecture of Konark Temple and serene coastal beauty of Puri.",
+    description: "Book you lucrative tour package of Odisha for 3 Nights, 4 Days offered by DiscoverMyTravel at  15,500 /Per Person ..",
     overview: "Odisha is India's hidden cultural gem, located along the eastern coast by the Bay of Bengal. It forms a golden triangle of tourism featuring Bhubaneswar's historic temples, Puri's sacred Jagannath shrine, and Konark's phenomenal Sun Temple.",
     itinerary: [
       { title: "Arrival in Bhubaneswar & Temple Core Tour", desc: "Arrive at Bhubaneswar terminal. Discover Kalinga heritage architecture through detailed visits to Lingaraj Temple, Mukteshwar Temple, and ancient rock-cut Khandagiri & Udayagiri Caves." },
@@ -78,15 +113,15 @@ export const tourData = [
       { title: "Puri Beach Relaxation & Bhubaneswar Return Departure", desc: "Enjoy sunrise strolls at Puri beach to look at local sand art installations. Collect regional Pattachitra arts before checking out and transiting to Bhubaneswar airport for return loops." }
     ],
     popularPlaces: [
-      { name: "Konark Sun Temple", image: "https://images.unsplash.com/photo-1599930113854-d6d7fd521f10?auto=format&fit=crop&w=300&q=80", details: "UNESCO heritage site built as a gigantic stone chariot." },
-      { name: "Jagannath Temple, Puri", image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=300&q=80", details: "World-famous holy site known for the annual Rath Yatra." }
+      { name: "Konark Sun Temple", image: "/odisha/1.jpg", details: "UNESCO heritage site built as a gigantic stone chariot." },
+      { name: "Jagannath Temple, Puri", image: "/odisha/2.jpg", details: "World-famous holy site known for the annual Rath Yatra." }
     ]
   },
   {
     id: "rajasthan",
     category: "domestic",
-    title: "Rajasthan",
-    image: "https://images.unsplash.com/photo-1477587458883-471a5ed94245?auto=format&fit=crop&w=600&q=80",
+    title: "Rajasthan Tour",
+    image: "/rajasthan/1.jpg",
     price: "₹16,999",
     duration: "6 Days / 5 Nights",
     description: "Walk through the royal history of Udaipur, Jaipur and majestic desert forts.",
@@ -100,14 +135,43 @@ export const tourData = [
       { title: "Udaipur Local Shopping Craft & Airport Drop Out", desc: "Morning exploration of local Mewari bazaars for miniature paintings and silver crafts. Check out compliance and drop transit to Udaipur terminal for final departure flights." }
     ],
     popularPlaces: [
-      { name: "Amber Fort, Jaipur", image: "https://images.unsplash.com/photo-1477587458883-471a5ed94245?auto=format&fit=crop&w=300&q=80", details: "Magnificent hilltop fort displaying majestic Hindu-Rajput design blend." },
-      { name: "City Palace, Udaipur", image: "https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=300&q=80", details: "Grand monumental lakeside palace complex spanning several centuries." }
-    ]
+  { 
+    name: "Hawa Mahal, Jaipur", 
+    image: "/rajasthan/1.jpg", 
+    details: "The iconic pink sandstone 'Palace of Winds' featuring 953 intricate jharokhas." 
+  },
+  { 
+    name: "Amber Fort, Jaipur", 
+    image: "/rajasthan/2.jpg", 
+    details: "A magnificent hilltop fort displaying a majestic blend of Hindu and Rajput architecture." 
+  },
+  { 
+    name: "Mehrangarh Fort, Jodhpur", 
+    image: "/rajasthan/3.jpg", 
+    details: "A towering 15th-century fortress offering panoramic views of the famous Blue City." 
+  },
+  { 
+    name: "Ranakpur Jain Temple", 
+    image: "/rajasthan/4.jpg", 
+    details: "An architectural marvel famous for its 1,444 uniquely carved marble pillars." 
+  },
+  { 
+    name: "Lake Palace, Udaipur", 
+    image: "/rajasthan/5.jpg", 
+    details: "A stunning white-marble floating palace built in the center of Lake Pichola." 
+  },
+  { 
+    name: "Saheliyon-ki-Bari, Udaipur", 
+    image: "/rajasthan/6.jpg", 
+    details: "A historic royal garden adorned with lush lawns, lotus pools, and marble fountains." 
+  }
+]
+
   },
   {
     id: "tamil-nadu",
     category: "domestic",
-    title: "Tamil Nadu",
+    title: "Tamil Nadu Tour",
     image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
     price: "₹15,200",
     duration: "5 Days / 4 Nights",
@@ -121,29 +185,67 @@ export const tourData = [
       { title: "Rameshwaram to Madurai Return Checkout Protocol", desc: "Morning check out from coastal resort. Collect traditional handloom sarees before smooth return highway transit to Madurai terminal for departure boarding." }
     ],
     popularPlaces: [
-      { name: "Meenakshi Temple, Madurai", image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=300&q=80", details: "A massive, colorful architectural masterpiece dedicated to Goddess Parvati." },
-      { name: "Shore Temple, Mahabalipuram", image: "https://images.unsplash.com/photo-1599930113854-d6d7fd521f10?auto=format&fit=crop&w=300&q=80", details: "7th-century rock-cut structural heritage temples directly on the coast." }
-    ]
+  { 
+    name: "Shore Temple, Mahabalipuram", 
+    image: "/tamilnadu/1.jpg", 
+    details: "An iconic 8th-century stone temple overlooking the Bay of Bengal, showcasing early Pallava architecture." 
+  },
+  { 
+    name: "Brihadisvara Temple, Thanjavur", 
+    image: "/tamilnadu/2.jpg", 
+    details: "A magnificent UNESCO World Heritage site and the crown jewel of Chola dynasty architectural brilliance." 
+  },
+  { 
+    name: "Meenakshi Amman Temple, Madurai", 
+    image: "/tamilnadu/3.jpg", 
+    details: "Famous for its towering, colorful gopurams (temple towers) and intricately carved divine pillared halls." 
+  },
+  { 
+    name: "Ramanathaswamy Temple Corridor, Rameswaram", 
+    image: "/tamilnadu/4.jpg", 
+    details: "Renowned for housing the longest temple corridor in the world, featuring spectacular sculpted pillars." 
+  }
+]
+
   },
   {
     id: "goa",
     category: "domestic",
-    title: "Goa",
+    title: "Goa Tour",
     image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
     price: "₹11,999",
     duration: "4 Days / 3 Nights",
     description: "Relax on golden sand beaches, enjoy thrilling watersports, and colonial monuments.",
-    overview: "Goa is India's premier pocket-sized paradise, universally loved for its laidback coastal vibes and Portuguese heritage. Blessed with a sprawling coastline along the Arabian Sea, it offers a distinct blend of vibrant parties.",
+    overview: "Goa is a pristine land blessed with Beautiful landscape, rich natural resources and wonderful blend of Portuguese and Indian culture. Swaying palms, Pristine white sands and sparkling blue water are the three main component of this beautiful land. Goa is an amazing place with its unspoilt beaches and a unique lifestyle make it distinguishable from the rest of India. However, this state, nestled in Western Ghats and bordered by the Arabian Sea, provides more charm to the state. Rich in natural abundance of flora and fauna, the ghats region of Goa is a perfect reverse of the bustling and sizzling beaches of Goa. The region is seeing a surge in ecotourism and sustainable development in the area thus, conserving environment as well as broadening the scope of tourism in the state. Beautiful rivulets, spectacular falls, towering rock hills, thick foliage of green and wide variety of Flora and fauna species makes the state a heaven for nature lovers.",
     itinerary: [
       { title: "Arrival in Goa & North Beach Leisure Strolls", desc: "Arrive at Mopa/Dabolim terminal. Allocation of transit beach stays. Evening free to sit across Calangute and Baga beach borders to enjoy fresh local coastal food setups." },
       { title: "North Goa Historical Forts & Watersports Challenge", desc: "Visit 17th-century Portuguese Fort Aguada and its lighthouse. Afternoon proceed to Calangute beach for thrilling parasailing, jet-skiing, and banana boat ride operations." },
       { title: "South Goa Colonial Churches & Dudhsagar Waterfall", desc: "Take an excursion up to the milky four-tiered Dudhsagar Waterfalls via forest jeeps. Later explore Old Goa heritage sites like Basilica of Bom Jesus holding holy remains of St. Francis." },
       { title: "Latin Quarter Walk & Terminal Drop Off Checkout", desc: "Morning walk across Fontainhas Latin Quarter to photograph brightly colored vintage villas. Check out compilation followed by smooth drop transit to airport for flight departures." }
     ],
-    popularPlaces: [
-      { name: "Calangute Beach", image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=300&q=80", details: "The bustling 'Queen of Beaches' highly active with adventure sports." },
-      { name: "Basilica of Bom Jesus", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "UNESCO monument holding the sacred remains of St. Francis Xavier." }
-    ]
+    popularPlaces :[
+  { 
+    name: "Calangute Beach", 
+    image: "/goa/1.jpg", 
+    details: "The bustling 'Queen of Beaches' highly active with adventure sports and vibrant shacks." 
+  },
+  { 
+    name: "Fort Aguada", 
+    image: "/goa/2.jpg", 
+    details: "A historic 17th-century Portuguese fort and lighthouse offering panoramic ocean views." 
+  },
+  { 
+    name: "Basilica of Bom Jesus", 
+    image: "/goa/3.jpg", 
+    details: "A revered UNESCO World Heritage Site holding the sacred mortal remains of St. Francis Xavier." 
+  },
+  { 
+    name: "Fontainhas (Latin Quarter)", 
+    image: "/goa/4.jpg", 
+    details: "An enchanting neighborhood in Panaji famous for its colorful Portuguese-style heritage houses." 
+  }
+]
+
   },
 
   // =================================================================
@@ -152,12 +254,12 @@ export const tourData = [
   {
     id: "thailand",
     category: "international",
-    title: "Thailand",
-    image: "https://images.unsplash.com/photo-1528181304800-2f1738b24a62?auto=format&fit=crop&w=600&q=80",
+    title: "Thailand Tour",
+    image: "/thailand/1.jpg",
     price: "₹39,999",
     duration: "5 Days / 4 Nights",
     description: "Bustling markets of Bangkok and crystal clear tropical shorelines of Phuket.",
-    overview: "Thailand, popularly known as the 'Land of Smiles', is a Southeast Asian treasure that seamlessly captures tropical beauty and rich Buddhist culture. The capital, Bangkok, is a neon-lit mega-metropolis packed with grand golden temples.",
+    overview: "Thailand, popularly known as the 'Land of Smiles', is a Southeast Asian treasure that seamlessly captures tropical beauty and rich Buddhist culture. The capital, Bangkok, is a neon-lit mega-metropolis packed with grand golden temples.", 
     itinerary: [
       { title: "Arrival in Bangkok & Chao Phraya River Cruise", desc: "Arrive at Suvarnabhumi Airport. Premium immigration clearance followed by hotel check-in. Evening luxury dinner cruise over the historical Chao Phraya River looking at lit temples." },
       { title: "Grand Palace Complex & Wat Arun Cultural Tour", desc: "Full guided tour of the spectacular Grand Palace royal court complex and Emerald Buddha shrine. Cross the river via ferry to see the intricate porcelain architecture of Wat Arun." },
@@ -166,15 +268,39 @@ export const tourData = [
       { title: "Phuket Local Souvenir Craft Shopping & Departure", desc: "Visit the historical Big Buddha hilltop statue view point. Complete checkout procedures followed by premium airport drops for international home-bound flights." }
     ],
     popularPlaces: [
-      { name: "The Grand Palace, Bangkok", image: "https://images.unsplash.com/photo-1528181304800-2f1738b24a62?auto=format&fit=crop&w=300&q=80", details: "Spectacular royal court complex showcasing gold-leaf architecture." },
-      { name: "Phi Phi Islands", image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=300&q=80", details: "Stunning island cluster famous for clear waters and scuba diving." }
-    ]
+  { 
+    name: "Chao Phraya River Cruise, Bangkok", 
+    image: "/thailand/1.jpg", 
+    details: "A scenic evening dinner cruise offering stunning illuminated views of Bangkok's iconic riverside landmarks." 
+  },
+  { 
+    name: "The Grand Palace & Wat Arun, Bangkok", 
+    image: "/thailand/2.jpg", 
+    details: "The spectacular royal palace complex paired with the majestic riverside Temple of Dawn." 
+  },
+  { 
+    name: "Patong Beach Nightlife, Phuket", 
+    image: "/thailand/3.jpg", 
+    details: "Phuket's most vibrant beach area famous for its lively night markets, neon lights, and entertainment." 
+  },
+  { 
+    name: "Phi Phi Islands, Phuket", 
+    image: "/thailand/4.jpg", 
+    details: "A luxury speedboat excursion to pristine tropical islands, famous for crystal-clear waters and limestone cliffs." 
+  },
+  { 
+    name: "Phuket Local Souvenir Markets", 
+    image: "/thailand/5.jpg", 
+    details: "A vibrant final stop to shop for traditional Thai crafts, spices, and unique local souvenirs before departure." 
+  }
+]
+
   },
   {
     id: "bhutan",
     category: "international",
-    title: "Bhutan",
-    image: "https://images.unsplash.com/photo-1548960495-c49efb43290d?auto=format&fit=crop&w=600&q=80",
+    title: "Bhutan Tour",
+    image: "/bhutan/5.jpg",
     price: "₹32,500",
     duration: "6 Days / 5 Nights",
     description: "Breathe in the happiness at Tiger's Nest monastery and pristine Himalayan valleys.",
@@ -188,19 +314,49 @@ export const tourData = [
       { title: "Airport Checkout Outbound Operations", desc: "Enjoy your last breakfast facing pristine Himalayan valley layouts. Timely departure check out and drop transfer to Paro airport for outbound international flights." }
     ],
     popularPlaces: [
-      { name: "Paro Taktsang (Tiger's Nest)", image: "https://images.unsplash.com/photo-1548960495-c49efb43290d?auto=format&fit=crop&w=300&q=80", details: "Iconic holy monastery built directly onto a sheer cliff face." },
-      { name: "Punakha Dzong", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "Stunning palace of great happiness situated at the meeting of two main rivers." }
-    ]
+  { 
+    name: "Thimphu Valley", 
+    image: "/bhutan/1.jpg", 
+    details: "The charming capital city of Bhutan, beautifully blending traditional culture with modern Himalayan life." 
+  },
+  { 
+    name: "Buddha Dordenma, Thimphu", 
+    image: "/bhutan/2.jpg", 
+    details: "A massive, majestic golden Buddha statue overlooking the valley, housing over one hundred thousand smaller Buddhas." 
+  },
+  { 
+    name: "Dochula Pass", 
+    image: "/bhutan/3.jpg", 
+    details: "A scenic mountain pass featuring 108 memorial chortens and offering spectacular panoramic views of the snow-capped Himalayas." 
+  },
+  { 
+    name: "Punakha Dzong", 
+    image: "/bhutan/4.jpg", 
+    details: "The stunning 'Palace of Great Happiness', historically significant and majestically located at the confluence of two main rivers." 
+  },
+  { 
+    name: "Paro Taktsang (Tiger's Nest)", 
+    image: "/bhutan/5.jpg", 
+    details: "Bhutan's most iconic sacred monastery, breathtakingly built directly onto a sheer cliff face 900 meters above the valley floor." 
+  }
+]
+
   },
   {
     id: "kathmandu",
     category: "international",
-    title: "Kathmandu",
+    title: "Kathmandu Tour",
     image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
     price: "₹19,999",
     duration: "4 Days / 3 Nights",
     description: "Explore absolute spiritual calmness at Pashupatinath and ancient Durbar Square.",
-    overview: "Kathmandu, the vibrant capital city of Nepal, is an open-air historical museum packed tightly with ancient temples, brick courtyards, and spiritual energy. Surrounded by the majestic Himalayan ranges, this valley houses UNESCO World Heritage zones.",
+    overview: "Route: Gorakhpur → Sunauli → Kathmandu → Sunauli → Gorakhpur{
+
+Pashupatinath Temple
+Boudhanath Stupa
+Swayambhunath (Monkey Temple)
+Kathmandu Durbar Square
+Chandragiri Cable Car (Optional)}.",
     itinerary: [
       { title: "Tribhuvan Airport Arrival & Thamel Leisure Walk", desc: "Arrive at Kathmandu international airport. Transfer to the hotel. Evening exploration of Thamel, the multi-cuisine backpacking tourism heart full of brass craft shops and cafes." },
       { title: "Pashupatinath Temple Holy Darshan & Boudhanath Stupa", desc: "Detailed spiritual tour of Pashupatinath Temple complex along Bagmati River. Later circle the massive Boudhanath Stupa dome, listening to Tibetan monks chanting mindfulness loops." },
@@ -215,7 +371,7 @@ export const tourData = [
   {
     id: "pokhara",
     category: "international",
-    title: "Pokhara",
+    title: "Pokhara Tour",
     image: "https://images.unsplash.com/photo-1578318285542-a276ec96b412?auto=format&fit=crop&w=600&q=80",
     price: "₹21,499",
     duration: "5 Days / 4 Nights",
@@ -236,7 +392,7 @@ export const tourData = [
   {
     id: "nepal-delight",
     category: "international",
-    title: "Nepal Delight",
+    title: "Nepal Delight Tour",
     image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=600&q=80",
     price: "₹26,999",
     duration: "7 Days / 6 Nights",
@@ -259,7 +415,7 @@ export const tourData = [
   {
     id: "dubai",
     category: "international",
-    title: "Dubai",
+    title: "Dubai Tour",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=80",
     price: "₹48,900",
     duration: "5 Days / 4 Nights",
@@ -280,7 +436,7 @@ export const tourData = [
   {
     id: "sri-lanka",
     category: "international",
-    title: "Sri Lanka",
+    title: "Sri Lanka Tour",
     image: "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=600&q=80",
     price: "₹29,999",
     duration: "6 Days / 5 Nights",
@@ -302,7 +458,7 @@ export const tourData = [
   {
     id: "singapore",
     category: "international",
-    title: "Singapore",
+    title: "Singapore Tour",
     image: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=80",
     price: "₹52,000",
     duration: "5 Days / 4 Nights",
@@ -323,7 +479,7 @@ export const tourData = [
   {
     id: "ilam",
     category: "international",
-    title: "Ilam",
+    title: "Ilam Tour",
     image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
     price: "₹18,500",
     duration: "4 Days / 3 Nights",
@@ -347,7 +503,7 @@ export const tourData = [
   {
     id: "chardham-yatra",
     category: "religious",
-    title: "Chardham Yatra",
+    title: "Chardham Yatra Tour",
     image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
     price: "₹28,500",
     duration: "10 Days / 9 Nights",
@@ -373,7 +529,7 @@ export const tourData = [
   {
     id: "kedarnath",
     category: "religious",
-    title: "Kedarnath",
+    title: "Kedarnath Tour",
     image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=600&q=80",
     price: "₹14,500",
     duration: "4 Days / 3 Nights",
@@ -393,7 +549,7 @@ export const tourData = [
   {
     id: "ayodhya",
     category: "religious",
-    title: "Ayodhya",
+    title: "Ayodhya Tour",
     image: "https://images.unsplash.com/photo-1699948035252-8c8ee2a2b347?auto=format&fit=crop&w=600&q=80",
     price: "₹6,999",
     duration: "3 Days / 2 Nights",
@@ -412,7 +568,7 @@ export const tourData = [
   {
     id: "tirupati-balaji",
     category: "religious",
-    title: "Tirupati Balaji",
+    title: "Tirupati Balaji Tour",
     image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
     price: "₹9,500",
     duration: "3 Days / 2 Nights",
@@ -431,7 +587,7 @@ export const tourData = [
   {
     id: "varanasi",
     category: "religious",
-    title: "Varanasi",
+    title: "Varanasi Tour",
     image: "https://images.unsplash.com/photo-1561361531-9952a607be23?auto=format&fit=crop&w=600&q=80",
     price: "₹7,500",
     duration: "3 Days / 2 Nights",
@@ -450,7 +606,7 @@ export const tourData = [
   {
     id: "vrindavan",
     category: "religious",
-    title: "Vrindavan",
+    title: "Vrindavan Tour",
     image: "https://images.unsplash.com/photo-1669222479532-6a42a6d7f3fb?auto=format&fit=crop&w=600&q=80",
     price: "₹5,999",
     duration: "3 Days / 2 Nights",
@@ -473,7 +629,7 @@ export const tourData = [
   {
     id: "nainital-shimla",
     category: "hillstation",
-    title: "Nainital-Shimla",
+    title: "Nainital-Shimla Tour",
     image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
     price: "₹18,500",
     duration: "6 Days / 5 Nights",
@@ -495,7 +651,7 @@ export const tourData = [
   {
     id: "bandipur",
     category: "hillstation",
-    title: "Bandipur",
+    title: "Bandipur Tour",
     image: "https://images.unsplash.com/photo-1578318285542-a276ec96b412?auto=format&fit=crop&w=600&q=80",
     price: "₹13,999",
     duration: "4 Days / 3 Nights",
@@ -515,7 +671,7 @@ export const tourData = [
   {
     id: "uttarakhand",
     category: "hillstation",
-    title: "Uttarakhand",
+    title: "Uttarakhand Tour",
     image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
     price: "₹16,500",
     duration: "5 Days / 4 Nights",
@@ -536,7 +692,7 @@ export const tourData = [
   {
     id: "himachal-pradesh",
     category: "hillstation",
-    title: "Himachal Pradesh",
+    title: "Himachal Pradesh Tour",
     image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=600&q=80",
     price: "₹19,999",
     duration: "6 Days / 5 Nights",
@@ -558,7 +714,7 @@ export const tourData = [
   {
     id: "tansen",
     category: "hillstation",
-    title: "Tansen",
+    title: "Tansen Tour",
     image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
     price: "₹12,499",
     duration: "4 Days / 3 Nights",
@@ -578,7 +734,7 @@ export const tourData = [
   {
     id: "dhulikhel",
     category: "hillstation",
-    title: "Dhulikhel",
+    title: "Dhulikhel Tour",
     image: "https://images.unsplash.com/photo-1578318285542-a276ec96b412?auto=format&fit=crop&w=600&q=80",
     price: "₹14,200",
     duration: "4 Days / 3 Nights",
