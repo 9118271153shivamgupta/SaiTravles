@@ -6,13 +6,13 @@ const HomeHero = () => {
   const [current, setCurrent] = useState(0);
   const length = heroBanners.length;
 
-  // Har 5 seconds (5000ms) me banner badalne ka logic
+  // 5 seconds automatic slide shift interval
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrent((prev) => (prev === length - 1 ? 0 : prev + 1));
     }, 5000);
 
-    return () => clearInterval(timer); // Cleanup timer component unmount hone par
+    return () => clearInterval(timer); 
   }, [length]);
 
   const nextSlide = () => {
@@ -24,14 +24,12 @@ const HomeHero = () => {
   };
 
   return (
-    <div className="relative h-[85vh] min-h-[500px] w-full overflow-hidden bg-slate-900">
+    <div className="relative h-[85vh] min-h-[550px] w-full overflow-hidden bg-slate-950">
       
       {/* --- Main Slides Container --- */}
       {heroBanners.map((banner, index) => (
         <div
           key={banner.id}
-          /* >>>>>>> READ THIS: SMOOTH SLIDING & FADE ANIMATION <<<<<<< */
-          /* Is block me hamne transitions ko smoothly left-to-right animate kiya hai */
           className={`absolute inset-0 w-full h-full transition-all duration-1000 ease-in-out transform
             ${index === current 
               ? 'opacity-100 translate-x-0 scale-100 z-10' 
@@ -40,8 +38,8 @@ const HomeHero = () => {
                 : 'opacity-0 translate-x-full scale-95 z-0 pointer-events-none'
             }`}
         >
-          {/* Background Image with Dark Overlay for Better Text Contrast */}
-          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-900/60 to-slate-950/85 z-10" />
+          {/* Logo Matched Sky Blue/Slate Dark Cinematic Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-b from-sky-950/60 via-slate-900/60 to-slate-950/90 z-10" />
           <img
             src={banner.image}
             alt={banner.title}
@@ -49,61 +47,60 @@ const HomeHero = () => {
           />
 
           {/* --- Central Content Area --- */}
-          <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-4 max-w-5xl mx-auto">
-            {/* Floating Tag */}
-            <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-semibold bg-white/10 backdrop-blur-md text-amber-300 mb-6 border border-white/20 animate-bounce">
+          <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-6 max-w-6xl mx-auto">
+            
+            {/* Floating Tag (Matched to Orange Highlight) */}
+            <span className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-black bg-slate-900/80 backdrop-blur-md text-amber-400 mb-6 border-2 border-amber-500/30 shadow-md animate-bounce uppercase tracking-wider">
               {banner.tag}
             </span>
 
-            {/* >>>>>>> READ THIS: ONLY TEXT NO BACKGROUND NO BOX <<<<<<< */}
-            {/* Saari background, blur, shadow aur borders ki classes hata di hain */}
-            {/* Ab sirf pure text bada hokar bina kisi box ke screen par float karega */}
-            <div className="max-w-3xl transform transition-all duration-700 delay-300">
-              <h2 className="text-2xl md:text-4xl font-bold text-white tracking-widest uppercase mb-3 drop-shadow-lg">
+            {/* Typography Engine (Bigger, Bolder text specs) */}
+            <div className="max-w-4xl transform transition-all duration-700 delay-300">
+              <h2 className="text-xl md:text-3xl font-black text-white tracking-widest uppercase mb-4 drop-shadow-md">
                 {banner.title}
               </h2>
-              <h1 className="text-5xl md:text-7xl font-black text-amber-400 tracking-tight uppercase leading-none mb-6 drop-shadow-[0_5px_15px_rgba(0,0,0,0.5)]">
+              <h1 className="text-4xl md:text-7xl font-black text-amber-500 tracking-tight uppercase leading-none mb-6 drop-shadow-[0_5px_20px_rgba(0,0,0,0.6)] font-sans">
                 {banner.subtitle}
               </h1>
-              <p className="text-base md:text-xl text-slate-100 font-medium leading-relaxed max-w-2xl mx-auto drop-shadow-md">
+              <p className="text-sm md:text-lg text-slate-100 font-extrabold leading-relaxed max-w-3xl mx-auto drop-shadow-md tracking-wide">
                 {banner.description}
               </p>
             </div>
 
-            {/* Quick Action Button Over Image */}
-            <button className="btn-primary mt-10 px-8 py-3 rounded-full text-sm font-bold shadow-xl shadow-purple-900/40 hover:scale-105 transition-all">
-              <Sparkles className="w-4 h-4 text-amber-300" />
+            {/* Action Call Button (Slate Blue Base with Amber Hover states) */}
+            <button className="mt-10 inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-sm font-black uppercase tracking-widest shadow-xl shadow-black/40 hover:scale-105 transition-all cursor-pointer border border-amber-400">
+              <Sparkles className="w-4 h-4 text-slate-950 fill-slate-950 animate-pulse" />
               Explore This Tour
             </button>
           </div>
         </div>
       ))}
 
-      {/* --- Manual Slide Controllers (Left/Right Arrows) --- */}
+      {/* --- Manual Side Controller Arrows (Matched to Theme) --- */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-30 bg-purple-600 hover:bg-purple-600 text-white p-2 md:p-3 rounded-full backdrop-blur-sm transition-all active:scale-90 cursor-pointer border border-white/10 group"
+        className="absolute left-5 top-1/2 -translate-y-1/2 z-30 bg-slate-900/60 hover:bg-amber-500 text-white hover:text-slate-950 p-3 rounded-xl backdrop-blur-md transition-all active:scale-90 cursor-pointer border border-white/10 group shadow-lg"
         aria-label="Previous Slide"
       >
-        <ChevronLeft className="w-5 h-5 md:w-6 md:h-6 group-hover:-translate-x-0.5 transition-transform" />
+        <ChevronLeft className="w-5 h-5 md:w-6 md:h-6 group-hover:-translate-x-0.5 transition-transform stroke-[3]" />
       </button>
 
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-30 bg-purple-600/40 hover:bg-purple-600 text-white p-2 md:p-3 rounded-full backdrop-blur-sm transition-all active:scale-90 cursor-pointer border border-white/10 group"
+        className="absolute right-5 top-1/2 -translate-y-1/2 z-30 bg-slate-900/60 hover:bg-amber-500 text-white hover:text-slate-950 p-3 rounded-xl backdrop-blur-md transition-all active:scale-90 cursor-pointer border border-white/10 group shadow-lg"
         aria-label="Next Slide"
       >
-        <ChevronRight className="w-5 h-5 md:w-6 md:h-6 group-hover:translate-x-0.5 transition-transform" />
+        <ChevronRight className="w-5 h-5 md:w-6 md:h-6 group-hover:translate-x-0.5 transition-transform stroke-[3]" />
       </button>
 
-      {/* --- Bottom Navigation Dots/Indicators --- */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-30 flex gap-2.5 bg-black/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/5">
+      {/* --- Bottom Navigation Dots --- */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 flex gap-3 bg-slate-900/80 backdrop-blur-md px-5 py-2.5 rounded-full border border-slate-700/50 shadow-lg">
         {heroBanners.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrent(index)}
             className={`h-2.5 rounded-full transition-all duration-300 cursor-pointer
-              ${index === current ? 'w-7 bg-amber-400' : 'w-2.5 bg-white/50 hover:bg-white'}`}
+              ${index === current ? 'w-8 bg-amber-500 shadow shadow-amber-500/50' : 'w-2.5 bg-white/40 hover:bg-white'}`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}

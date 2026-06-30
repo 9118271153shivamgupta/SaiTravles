@@ -14,7 +14,7 @@ const TopBar = () => {
             className="bg-purple-900/60 hover:bg-amber-500 hover:text-purple-950 px-3 py-1 rounded-full transition-all duration-300 flex items-center gap-1.5 font-semibold text-white tracking-wide border border-purple-800/60"
           >
             <Phone className="w-3 h-3 text-amber-400 animate-pulse" />
-            <span>Call Now: +91 9118271153</span>
+            <span>Call Now: +91 7068681745</span>
           </a>
         </div>
         {/* Left Side: Trust Links Menu */}

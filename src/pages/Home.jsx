@@ -5,6 +5,8 @@ import HomeAboutWelcome from '../components/HomeAboutWelcome';
 import { useNavigate } from 'react-router-dom';
 import TourPlanner from '../components/TourPlanner';
 import TaxiBookingSection from '../components/TaxiBookingSection';
+import OurServices from '../components/OurServices';
+import WhyChooseUs from '../components/WhyChooseUs';
 
 const Home = () => {
 
@@ -38,6 +40,9 @@ const Home = () => {
         onBookNow={(title) => alert(`Booking Form open for: ${title}`)}
       />
       <TaxiBookingSection/> 
+
+      <OurServices/>
+      <WhyChooseUs/>
       
 
     </div>

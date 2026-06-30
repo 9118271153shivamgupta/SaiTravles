@@ -15,6 +15,7 @@ import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
 import Certificate from './pages/Certificate'
 import TourDetailsPage from './pages/TourDetailsPage'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
         {/* <Route path="/domestic" element={<DomesticTour />} /> Naya Component Link Kiya */}
       <Route path="/tour/:tourId" element={<TourDetailsPage />} />
       </Routes>
+       <Footer/>
     </div>
   )
 }

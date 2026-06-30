@@ -5,9 +5,9 @@
 
 @theme {
   /* Sia Travels Brand Colors */
-  --color-brand-primary: #4c1d95; /* Purple-900 */
-  --color-brand-light: #ffffff;   /* White */
-  --color-brand-accent: #7c3aed;  /* Purple-600 */
+  --color-brand-primary:#DE6910; 
+  --color-brand-light: #4D9FE4;  
+  --color-brand-accent:#051A30;  
 
   /* 2. Poppins Font ko Default Sans Font Banaya */
   --font-sans: 'Poppins', sans-serif;
