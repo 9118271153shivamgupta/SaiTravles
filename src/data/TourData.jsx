@@ -679,7 +679,7 @@ export const tourData = [
     id: "chardham-yatra",
     category: "religious",
     title: "Chardham Yatra Tour Package",
-    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
+    image: "/chardham/9.png",
     price: "₹28,500",
     duration: "10 Days / 9 Nights",
     description: "Most sacred circuits including Yamunotri, Gangotri, Kedarnath, and Badrinath.",
@@ -744,48 +744,72 @@ export const tourData = [
     id: "kedarnath",
     category: "religious",
     title: "Kedarnath Tour Package",
-    image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=600&q=80",
+    image: "/kedarnath/3.jpg",
     price: "₹14,500",
     duration: "4 Days / 3 Nights",
     description: "Majestic Shiva shrine situated amid snowy raw peaks of Garhwal Himalayas.",
     overview: "Kedarnath is one of the holiest and most remotely located shrines dedicated to Lord Shiva, resting at a dramatic altitude of 3,583 meters in Uttarakhand. Encircled by towering glaciers and breathtaking snow peaks.",
     itinerary: [
   { 
-    day: "Day 1",
-    title: "Gorakhpur to Rishikesh Premium Drive / Train Journey", 
-    desc: "Depart from Gorakhpur via a comfortable overnight train or private luxury coach. Cross the plains of Uttar Pradesh to reach the holy gateway city of Rishikesh by morning." 
+    day: "Day 01",
+    title: "Gorakhpur to Haridwar (Overnight Premium Transit)", 
+    desc: "Depart from Gorakhpur via a comfortable overnight train or private luxury vehicle. Pass through the rich plains of Uttar Pradesh to arrive at the holy city of Haridwar by early morning." 
   },
   { 
-    day: "Day 2",
-    title: "Rishikesh to Sonprayag / Guptkashi Transit Corridor", 
-    desc: "Arrive at Rishikesh. Proceed on an 8-hour scenic highway transit along river Mandakini curves to reach Sonprayag base valley. Overnight stay inside comfortable riverside guest shelters to rest before the big trek." 
+    day: "Day 02",
+    title: "Haridwar - Guptkashi (206KMS / 06 to 07 HRS)", 
+    desc: "Morning arrival in Haridwar. Meet our driver and proceed on a scenic mountain drive along the Alaknanda and Mandakini rivers to reach Guptkashi. On arrival, check in at the hotel/camp and rest." 
   },
   { 
-    day: "Day 3",
-    title: "The 16KM Arduous Spiritual Trek to Kedarnath Peak", 
-    desc: "Early 5:00 AM transit to Gaurikund. Start the challenging 16-kilometer mountain trek to Kedarnath shrine via foot/pony routes under high alpine air chanting continuous mantras. Overnight stay near the temple." 
+    day: "Day 03",
+    title: "Guptkashi - Kedarnath (30KMS by road & 19KMS trek one way)", 
+    desc: "Early morning drive to Sonprayag/Gaurikund (30KMS). Start the holy 19KM mountain trek to Kedarnath Temple. Walk or hire a pony/palanquin. Arrive at the top, witness the divine evening aarti, and stay overnight near the temple." 
   },
   { 
-    day: "Day 4",
-    title: "Dawn Glacial Views, Kedarnath Darshan & Safe Descent", 
-    desc: "Attend early morning divine darshans at the ancient stone interlocking Shiva shrine. Witness Bhairav Nath temple heights before trekking back down at an easy pace to Sonprayag base valley camps for a relaxed night." 
+    day: "Day 04",
+    title: "Kedarnath - Guptkashi (30KMS by road & 19KMS trek one way)", 
+    desc: "Wake up early for divine morning Darshan and prayers at the ancient stone interlocking Shiva shrine. After seeking blessings, trek back 19KMS down to Gaurikund, and drive 30KMS back to Guptkashi for a relaxed overnight stay." 
   },
   { 
-    day: "Day 5",
-    title: "Sonprayag to Rishikesh Return & Gorakhpur Departure Drop", 
-    desc: "Drive back from the mountains to Rishikesh valley fields. Walk past historic suspension bridges like Laxman Jhula, then board your return transport back to Gorakhpur, concluding your spiritual yatra." 
+    day: "Day 05",
+    title: "Guptkashi - Haridwar (206KMS / 06 to 07HRS)", 
+    desc: "After breakfast, check out from Guptkashi and drive back down through the rolling hills to Haridwar (206KMS). Enjoy a beautiful evening view of Ganga Aarti at Har Ki Pauri if time permits." 
+  },
+  { 
+    day: "Day 06",
+    title: "Haridwar to Gorakhpur (Return Drop Journey)", 
+    desc: "Board your return transport or premium overnight train from Haridwar station. Arrive back safely in Gorakhpur, bringing your spiritual Kedarnath Dham Yatra with Shree Sai Trip to a wonderful conclusion." 
   }
 ],
     popularPlaces: [
-      { name: "Kedarnath Main Temple", image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=300&q=80", details: "Magnificent ancient stone shrine of Lord Shiva facing snow peaks." },
-      { name: "Bhairav Nath Temple", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "Hilltop guardian deity shrine offering a wide bird's-eye view of valleys." }
-    ]
+  { 
+    name: "Guptkashi", 
+    image: "/kedarnath/1.jpg", 
+    details: "A beautiful spiritual town housing the ancient Vishwanath Temple, serving as the main base for the Kedarnath journey." 
+  },
+  { 
+    name: "Kedarnath Trek Route", 
+    image: "/kedarnath/2.jpg", 
+    details: "The majestic and challenging mountain trail lined with beautiful water streams, waterfalls, and steep valleys." 
+  },
+  { 
+    name: "Kedarnath Main Temple", 
+    image: "/kedarnath/3.jpg", 
+    details: "The magnificent, ancient stone shrine of Lord Shiva standing strong and majestic against the giant snow peaks." 
+  },
+  { 
+    name: "Bhairav Nath Temple", 
+    image: "/kedarnath/4.jpg", 
+    details: "The hilltop guardian deity shrine located close to Kedarnath, offering a breathtaking bird's-eye view of the entire valley." 
+  }
+]
+
   },
   {
     id: "ayodhya",
     category: "religious",
     title: "Ayodhya Tour Package",
-    image: "https://images.unsplash.com/photo-1699948035252-8c8ee2a2b347?auto=format&fit=crop&w=600&q=80",
+    image: "/ayodhya/5.png",
     price: "₹6,999",
     duration: "3 Days / 2 Nights",
     description: "Seek peaceful blessings at newly built dynamic grand Shri Ram Janmabhoomi Mandir.",
@@ -795,10 +819,29 @@ export const tourData = [
       { title: "Grand Shri Ram Janmabhoomi Darshan & Hanuman Garhi Fort", desc: "Morning direct entry into the grand newly constructed stone-carved Shri Ram Janmabhoomi Mandir. Later climb 76 steps to Hanumangarhi fortress temple, and visit Kanak Bhawan palace." },
       { title: "Dashrath Mahal Courtyards & Departure Checkout Loop", desc: "Explore ancient courtyards of Dashrath Mahal and detailed stone art panels inside Choti Chawni complex. Afternoon compiled departures drop transits to terminal station." }
     ],
-    popularPlaces: [
-      { name: "Shri Ram Janmabhoomi Mandir", image: "https://images.unsplash.com/photo-1699948035252-8c8ee2a2b347?auto=format&fit=crop&w=300&q=80", details: "The grand, newly built masterpiece temple dedicated to Lord Ram Lalla." },
-      { name: "Hanuman Garhi", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "A 10th-century hilltop temple fortress dedicated to Lord Hanuman." }
-    ]
+   popularPlaces: [
+  { 
+    name: "Sarayu River Ghats", 
+    image: "/ayodhya/1.jpg", 
+    details: "The holy riverfront where devotees take a sacred dip and witness the soul-stirring evening Sarayu Aarti." 
+  },
+  { 
+    name: "Shri Ram Janmabhoomi Mandir", 
+    image: "/ayodhya/2.jpg", 
+    details: "The grand, newly built architectural masterpiece temple dedicated to Lord Ram Lalla." 
+  },
+  { 
+    name: "Hanuman Garhi", 
+    image: "/ayodhya/3.jpg", 
+    details: "A historic 10th-century hilltop temple fortress dedicated to Lord Hanuman, custom says to visit here first." 
+  },
+  { 
+    name: "Dashrath Mahal", 
+    image: "/ayodhya/4.jpg", 
+    details: "The magnificent ancient palace complex believed to be the royal residence of King Dashrath, featuring beautiful courtyards." 
+  }
+]
+
   },
   {
     id: "tirupati-balaji",
@@ -815,47 +858,117 @@ export const tourData = [
       { title: "Kapila Theertham Waterfalls & Final Departure Checkout", desc: "Visit Kapila Theertham holy cave waterfall temple dedicated to Lord Shiva. Browse local markets for brass idols before checking out for final airport/station return drops." }
     ],
     popularPlaces: [
-      { name: "Tirumala Venkateswara Temple", image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=300&q=80", details: "The world-famous golden-roofed temple shrine of Lord Balaji." },
-      { name: "Padmavathi Ammavari Temple", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "Sacred temple shrine dedicated to the divine consort of Lord Venkateswara." }
-    ]
+  { 
+    name: "Sri Padmavathi Ammavari Temple", 
+    image: "/tirupati/1.jpg", 
+    details: "Sacred temple shrine dedicated to Goddess Padmavathi, the divine consort of Lord Venkateswara." 
+  },
+  { 
+    name: "Tirumala Venkateswara Temple", 
+    image: "/tirupati/2.jpg", 
+    details: "The world-famous golden-roofed hill temple shrine of Lord Balaji, nestled in the Seshachalam hills." 
+  },
+  { 
+    name: "Kapila Theertham Waterfalls", 
+    image: "/tirupati/3.jpg", 
+    details: "A holy cave temple dedicated to Lord Shiva, located at the base of Tirumala hills with a scenic waterfall." 
+  }
+]
+
   },
   {
     id: "varanasi",
     category: "religious",
     title: "Varanasi Tour Package",
-    image: "https://images.unsplash.com/photo-1561361531-9952a607be23?auto=format&fit=crop&w=600&q=80",
+    image:  "/kashi/5.png",
     price: "₹7,500",
     duration: "3 Days / 2 Nights",
     description: "Witness mystical Ganga Aarti at Dashashwamedh Ghat and pristine historic alleys.",
     overview: "Varanasi, also historically known as Kashi or Banaras, is widely celebrated as one of the oldest continuously inhabited cities on Earth. Anchored along the sacred loops of the River Ganga in Uttar Pradesh.",
     itinerary: [
-      { title: "Arrival in Kashi City Core & Grand Evening Ganga Aarti", desc: "Arrive at Varanasi terminal station. Check in to hotel. Evening enjoy an immersive traditional wooden boat ride over river Ganga looking at synchronized multi-lamp Dashashwamedh Ganga Aarti." },
-      { title: "Kashi Vishwanath Corridor Darshan & Sarnath Buddhist Ruins", desc: "Early morning sacred walk across narrow lanes to view golden-spired Kashi Vishwanath Jyotirlinga. Afternoon drive to Sarnath archaeological park to explore Dhamekh Stupa where Buddha gave his first sermon." },
-      { title: "Subah-e-Banaras Assi Ghat Rituals & Departure Checkout", desc: "At 5:00 AM gather at Assi Ghat for beautiful classical vocal recitals and morning fire rituals. Purchase handloom Banarasi silk sarees before checkout drop transits to terminal." }
-    ],
+  { 
+    title: "Arrival in Kashi, Ancient Temples Darshan & Grand Evening Ganga Aarti", 
+    desc: "Arrive at Varanasi terminal station and check in to your hotel. Begin your sacred journey with Darshan at Baba Kal Bhairav Temple, Shri Kashi Vishwanath Temple, and Maa Annapurna Temple. In the evening, enjoy an immersive traditional wooden boat ride over river Ganga looking at synchronized multi-lamp Dashashwamedh Ganga Aarti." 
+  },
+  { 
+    title: "Sankatmochan Darshan, Sarnath Buddhist Ruins & BHU Cultural Tour", 
+    desc: "Morning visit for divine Darshan at Sankatmochan Temple, Durgakund Temple, and Tulsi Manas Temple, followed by a local breakfast of Kachori Sabzi. Afternoon drive to BHU for a campus tour, then proceed to Sarnath archaeological park to explore Dhamekh Stupa and famous Buddhist sites where Buddha gave his first sermon." 
+  },
+  { 
+    title: "Subah-e-Banaras Assi Ghat Rituals & Departure Checkout", 
+    desc: "At 5:00 AM gather at Assi Ghat for beautiful classical vocal recitals, Sunrise Arti, and morning fire rituals. Enjoy a relaxed morning stroll, purchase traditional handloom Banarasi silk sarees, before checkout and drop transits to terminal for departure." 
+  }
+],
     popularPlaces: [
-      { name: "Kashi Vishwanath Temple", image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=300&q=80", details: "The sacred golden-spired Jyotirlinga shrine of Lord Shiva." },
-      { name: "Dashashwamedh Ghat", image: "https://images.unsplash.com/photo-1561361531-9952a607be23?auto=format&fit=crop&w=300&q=80", details: "The primary bustling ghat famous for the spectacular evening Ganga Aarti." }
-    ]
+  { 
+    name: "Kashi Vishwanath Temple", 
+    image: "/kashi/1.jpg", 
+    details: "The sacred golden-spired Jyotirlinga shrine of Lord Shiva located near the holy Ganges." 
+  },
+  { 
+    name: "Dashashwamedh Ghat", 
+    image: "/kashi/2.jpg", 
+    details: "The primary bustling ghat famous for the spectacular and deeply spiritual evening Ganga Aarti." 
+  },
+  { 
+    name: "Sarnath Buddhist Ruins", 
+    image: "/kashi/3.jpg", 
+    details: "A serene historical site where Lord Buddha preached his first sermon, featuring the massive Dhamek Stupa." 
+  },
+  { 
+    name: "Assi Ghat (Subah-e-Banaras)", 
+    image: "/kashi/4.jpg", 
+    details: "Famous for its ethereal early morning spiritual rituals, classical music, and Vedic yoga sessions." 
+  }
+]
+
   },
   {
     id: "vrindavan",
     category: "religious",
     title: "Vrindavan Tour Package",
-    image: "https://images.unsplash.com/photo-1669222479532-6a42a6d7f3fb?auto=format&fit=crop&w=600&q=80",
+    image: "/mathura/3.jpg",
     price: "₹5,999",
     duration: "3 Days / 2 Nights",
     description: "Immerse yourself completely into cosmic Krishna devotion around Banke Bihari nodes.",
     overview: "Vrindavan is a highly energetic holy town located in Mathura district, celebrating the playful childhood pastimes of Lord Krishna. Lying along the Yamuna River, the destination is completely saturated in pure 'Bhakti' devotion.",
-    itinerary: [
-      { title: "Mathura Arrival & Shri Krishna Janmabhoomi Core", desc: "Arrive at Mathura junction station. Check in and explore Lord Krishna's structural birthplace prison vault cells temple complex, and walk past peaceful Vishram Ghat river boundaries." },
-      { title: "Banke Bihari Ecstatic Darshan & Prem Mandir Night Lights", desc: "Morning visit to chaotic high-energy Banke Bihari Temple inside Vrindavan old alleys. Evening walk inside massive Italian white marble Prem Mandir complex to watch colorful musical laser water fountains." },
-      { title: "Mystical Nidhivan Forest Walk & Return Checkout Drops", desc: "Explore the twisted green shrubs inside mystical Nidhivan forest area. Savor delicious sweet milk delicacies (pedas) from busy markets before checking out for final return transits." }
-    ],
-    popularPlaces: [
-      { name: "Banke Bihari Temple", image: "https://images.unsplash.com/photo-1669222479532-6a42a6d7f3fb?auto=format&fit=crop&w=300&q=80", details: "The highly popular heart temple hosting the charming swinging deity of Krishna." },
-      { name: "Prem Mandir", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "Massive white Italian marble temple complex famous for stunning night lights." }
-    ]
+  itinerary: [
+  { 
+    title: "Gorakhpur to Mathura Transit & Shri Krishna Janmabhoomi Core", 
+    desc: "Depart from Gorakhpur and arrive at Mathura station. Check in to your hotel, then visit Lord Krishna's structural birthplace prison vault cells temple complex. Later, explore Iskcon Temple, Dwarkadhish Temple, and take a peaceful walk past Vishram Ghat and Keshi Ghat river boundaries." 
+  },
+  { 
+    title: "Vrindavan Temples Tour & Prem Mandir Night Lights", 
+    desc: "After breakfast, drive to Vrindavan to explore historic sites including Govind Dev Temple, Rangaji Temple, and the world-famous Banke Bihari Temple inside old alleys. In the evening, walk inside the massive Italian white marble Prem Mandir complex to watch colorful musical laser water fountains." 
+  },
+  { 
+    title: "Mystical Nidhivan Forest Walk & Return Transit to Gorakhpur", 
+    desc: "Explore the twisted green shrubs inside the mystical Nidhivan forest area. Savor and pack delicious sweet milk delicacies (pedas) from busy traditional markets before checking out for your final return transit back to Gorakhpur." 
+  }
+],
+   popularPlaces: [
+  { 
+    name: "Shri Krishna Janmabhoomi, Mathura", 
+    image: "/mathura/1.jpg", 
+    details: "The sacred birthplace of Lord Krishna, featuring the historic prison cell temple complex." 
+  },
+  { 
+    name: "Banke Bihari Temple, Vrindavan", 
+    image: "/mathura/2.jpg", 
+    details: "The highly popular heart temple hosting the charming and blissfully swinging deity of Lord Krishna." 
+  },
+  { 
+    name: "Prem Mandir, Vrindavan", 
+    image: "/mathura/3.jpg", 
+    details: "A massive white Italian marble temple complex world-famous for its stunning, colorful night light musical fountains." 
+  },
+  { 
+    name: "Mystical Nidhivan Forest", 
+    image: "/mathura/4.jpg", 
+    details: "A deeply mystical sacred forest grove where bushes are believed to transform into gopis for Raas Leela at night." 
+  }
+]
+
   },
 
   // =================================================================
@@ -865,43 +978,120 @@ export const tourData = [
     id: "nainital-shimla",
     category: "hillstation",
     title: "Nainital-Shimla Tour Package",
-    image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+    image: "/nainital-shimla/2.jpg",
     price: "₹18,500",
     duration: "6 Days / 5 Nights",
     description: "A perfect fusion of emerald Naini lakes with vintage Mall roads of beautiful Shimla.",
     overview: "This combined holiday package brings together two of north India’s most iconic colonial hill retreats: Nainital and Shimla. Nainital centers around a stunning emerald pear-shaped lake wrapped by thick oak forests.",
-    itinerary: [
-      { title: "Arrival at Kathgodam Terminal & Nainital Drive", desc: "Arrive at Kathgodam railway station. Private vehicular transit up cool mountain bends to reach Nainital emerald lake town. Evening leisure walk on colonial Mall Road borders." },
-      { title: "Naini Lake Yacht Boating & Snow View Ropeway Climb", desc: "Enjoy rowing/yacht boating circles over pear-shaped Naini Lake. Later board a high aerial ropeway cable car to reach Snow View Point overlooking white peak walls." },
-      { title: "Long Scenic Highway Drive from Nainital to Shimla Capital", desc: "An early 6:00 AM check out followed by a panoramic long-distance trans-hill highway drive to reach Shimla (The historic British Summer Capital of India). Check into resort blocks." },
-      { title: "Shimla Pedestrian Ridge Walk & Jakhoo Hanuman Statue", desc: "Stroll across the wide vehicle-free walking plaza of The Ridge. Explore Christchurch architecture, Mall road bakeries, and trek up to Jakhoo Temple hosting a 108ft orange Hanuman monument." },
-      { title: "Kufri Snow Adventure Slopes & Yak Riding Safaris", desc: "Excursion to alpine sub-town Kufri. Enjoy panoramic walks inside dense cedar Himalayan Nature Parks, try outdoor valley fun activities, and experience unique high-altitude yak riding tracks." },
-      { title: "Viceregal Castle Lodge Tour & Chandigarh Departure Check-Out", desc: "Explore the majestic Scottish-baronial style Viceregal Lodge castle structure. Compile luggage check outs followed by downhill drop transit to Chandigarh terminal for return flights." }
-    ],
-    popularPlaces: [
-      { name: "Naini Lake, Nainital", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "Beautiful eye-shaped central freshwater lake ideal for yacht boating." },
-      { name: "The Ridge, Shimla", image: "https://images.unsplash.com/photo-1578318285542-a276ec96b412?auto=format&fit=crop&w=300&q=80", details: "Wide open pine-lined walking plaza looking out to mountain peaks." }
-    ]
+   itinerary: [
+  { 
+    title: "Gorakhpur Departure to Kathgodam Terminal & Nainital Drive", 
+    desc: "Board your transit from Gorakhpur to reach Kathgodam railway station. Enjoy a private vehicular transit up cool mountain bends to reach the emerald lake town of Nainital. Spend your evening with a leisure walk on the colonial Mall Road borders." 
+  },
+  { 
+    title: "Naini Lake Yacht Boating & Snow View Ropeway Climb", 
+    desc: "Enjoy rowing or yacht boating circles over the pear-shaped Naini Lake. Later, board a high aerial ropeway cable car to reach Snow View Point overlooking the stunning white Himalayan peak walls." 
+  },
+  { 
+    title: "Long Scenic Highway Drive from Nainital to Shimla Capital", 
+    desc: "An early 6:00 AM check-out followed by a panoramic long-distance trans-hill highway drive to reach Shimla (The historic British Summer Capital of India). Check into your resort blocks and unwind." 
+  },
+  { 
+    title: "Shimla Pedestrian Ridge Walk & Jakhoo Hanuman Statue", 
+    desc: "Stroll across the wide vehicle-free walking plaza of The Ridge. Explore the beautiful Christchurch architecture, Mall Road bakeries, and trek up to Jakhoo Temple hosting a massive 108ft orange Hanuman monument." 
+  },
+  { 
+    title: "Kufri Snow Adventure Slopes & Yak Riding Safaris", 
+    desc: "Take an excursion to the alpine sub-town of Kufri. Enjoy panoramic walks inside dense cedar Himalayan Nature Parks, try outdoor valley fun activities, and experience unique high-altitude yak riding tracks." 
+  },
+  { 
+    title: "Viceregal Castle Lodge Tour & Return Transit to Gorakhpur", 
+    desc: "Explore the majestic Scottish-baronial style Viceregal Lodge castle structure. Compile your luggage check-outs, followed by a downhill drop transit to the terminal for your final return journey back to Gorakhpur." 
+  }
+],
+   popularPlaces: [
+  { 
+    name: "Gorakhpur Departure to Kathgodam Terminal & Nainital Drive", 
+    image: "/nainital-shimla/1.jpg", 
+    details: "A beautiful pear-shaped freshwater lake surrounded by misty hills, perfect for scenic boating and yachting." 
+  },
+  { 
+    name: "Snow View Point, Nainital", 
+    image: "/nainital-shimla/2.jpg", 
+    details: "Reached via a thrilling aerial ropeway climb, offering panoramic views of the snow-capped Himalayan peaks." 
+  },
+  { 
+    name: "The Ridge, Shimla", 
+    image: "/nainital-shimla/3.jpg", 
+    details: "A wide, pine-lined pedestrian walking plaza in the heart of Shimla, offering stunning valley views." 
+  },
+  { 
+    name: "Jakhoo Hanuman Temple, Shimla", 
+    image: "/nainital-shimla/4.jpg", 
+    details: "Situated on the highest peak of Shimla, featuring a colossal 108-foot-tall statue of Lord Hanuman." 
+  },
+  { 
+    name: "Kufri Snow Adventure Slopes", 
+    image: "/nainital-shimla/5.jpg", 
+    details: "A scenic hill station famous for its winter snow adventure sports, yak riding safaris, and amusement parks." 
+  },
+  { 
+    name: "Viceregal Lodge, Shimla", 
+    image: "/nainital-shimla/6.jpg", 
+    details: "An architectural marvel showcasing a grand Jacobethan British colonial castle lodge with lush manicured lawns." 
+  }
+]
+
   },
   {
     id: "bandipur",
     category: "hillstation",
     title: "Bandipur Tour Package",
-    image: "https://images.unsplash.com/photo-1578318285542-a276ec96b412?auto=format&fit=crop&w=600&q=80",
+    image: "/bandipur/1.jpg", 
     price: "₹13,999",
     duration: "4 Days / 3 Nights",
     description: "Charming ancient hilltop settlement in Nepal showing majestic sunrise view frameworks.",
     overview: "Bandipur is a beautifully preserved living museum town situated on a high ridge in Tanahun district, Nepal. Renowned for its untouched 18th-century Newari architecture, the main town features flagstone pedestrian streets.",
     itinerary: [
-      { title: "Kathmandu/Pokhara Highway Leave & Bandipur Ridge Climb", desc: "Leave main highway hubs. Ascend private transit cars up steep cliff roads to reach vehicle-free historic flagstone pedestrian zones of Bandipur. Evening explore European-vibe cafes." },
-      { title: "Thani Mai Hill Sunrise Peak & Siddha Gufa Cave Crawling", desc: "Early 5:00 AM stone trek up Thani Mai hill lock for 360-degree gold sunrises across Langtang range. Afternoon experience wild flashlight crawling inside the deep stalactite grids of Siddha Gufa." },
-      { title: "Silkworm Agro Farms & Tundikhel Plateau Vantage Walks", desc: "Guided educational walk inside local silkworm production nurseries. Afternoon stroll across the massive flat human-made green ridge of Tundikhel playground looking directly down at river valleys." },
-      { title: "Newari Carved Architecture Wood Walk & Return Departure", desc: "Photograph ancient carved wooden window frames of Bandipur Bazaar houses and visit Padma library structures. Compiled resort checkouts followed by return valley highway drop transits." }
-    ],
-    popularPlaces: [
-      { name: "Bandipur Bazaar", image: "https://images.unsplash.com/photo-1578318285542-a276ec96b412?auto=format&fit=crop&w=300&q=80", details: "Vehicle-free historic brick street lined with flowering European-style cafes." },
-      { name: "Siddha Gufa Cave", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "The largest stalactite cave structure in Nepal, popular for adventure crawls." }
-    ]
+  { 
+    title: "Gorakhpur Departure via Sonauli & Bandipur Ridge Climb", 
+    desc: "Depart early from Gorakhpur and cross the border via Sonauli to connect with the Nepal highway. Ascend in private transit cars up steep cliff roads to reach the vehicle-free historic flagstone pedestrian zones of Bandipur. Spend your evening exploring the charming European-vibe cafes." 
+  },
+  { 
+    title: "Thani Mai Hill Sunrise Peak & Siddha Gufa Cave Crawling", 
+    desc: "Begin with an early 5:00 AM stone trek up Thani Mai hill lock for breathtaking 360-degree gold sunrises across the Langtang range. In the afternoon, experience wild flashlight crawling inside the deep stalactite grids of Siddha Gufa." 
+  },
+  { 
+    title: "Silkworm Agro Farms & Tundikhel Plateau Vantage Walks", 
+    desc: "Take a guided educational walk inside local silkworm production nurseries. In the afternoon, enjoy a scenic stroll across the massive flat human-made green ridge of Tundikhel playground, looking directly down at the beautiful river valleys." 
+  },
+  { 
+    title: "Newari Carved Architecture Wood Walk & Return to Gorakhpur", 
+    desc: "Photograph the ancient carved wooden window frames of Bandipur Bazaar houses and visit the historic Padma library structures. Compile your resort checkouts followed by a downhill highway drop transit back across the border to Gorakhpur." 
+  }
+],popularPlaces: [
+  { 
+    name: "Bandipur Old Bazaar", 
+    image: "/bandipur/1.jpg", 
+    details: "A vehicle-free historic brick street lined with beautifully preserved 18th-century Newari architecture and flowering cafes." 
+  },
+  { 
+    name: "Thani Mai Hill Sunrise", 
+    image: "/bandipur/2.jpg", 
+    details: "A famous hilltop viewpoint offering breathtaking early morning sunrise vistas over the Langtang and Annapurna ranges." 
+  },
+  { 
+    name: "Siddha Gufa Cave", 
+    image: "/bandipur/3.jpg", 
+    details: "The largest subterranean stalactite cave structure in Nepal, highly popular for thrilling adventure crawls." 
+  },
+  { 
+    name: "Tundikhel Plateau", 
+    image: "/bandipur/4.jpg", 
+    details: "A massive, green tabletop meadow offering magnificent panoramic vantage views of the deep trading valleys and snow peaks." 
+  }
+]
+
   },
   {
     id: "uttarakhand",
@@ -913,78 +1103,236 @@ export const tourData = [
     description: "Misty mountains and fresh forest pathways spanning Mussoorie, Rishikesh & Dehradun.",
     overview: "This comprehensive Uttarakhand hill package perfectly bridges together the mountain charms of Mussoorie, the urban valley comfort of Dehradun, and the spiritual wellness of Rishikesh.",
     itinerary: [
-      { title: "Arrival at Dehradun Terminal & Mussoorie Hill Drive", desc: "Arrive at Dehradun. Board private uphill transport coaches to reach the Queen of Hills—Mussoorie. Check into hotel and stroll across colonial walking tracks of Mussoorie Mall Road." },
-      { title: "Kempty Waterfalls Splash & Gun Hill Ropeway Vantage", desc: "Spend morning swimming across giant natural pool traps under Kempty Falls cascade streams. Afternoon ride high aerial cable cars up to Gun Hill peak to view sweeping Doon Valley layouts." },
-      { title: "Mussoorie to Dehradun Robber's Cave Explores & Rishikesh Drive", desc: "Drive downhill to Dehradun. Wade inside cold water streams flowing inside dark dark limestone channels of Robber's Cave (Guchhupani). Evening drive into Rishikesh yoga city." },
-      { title: "White Water River Rafting Rapids & Triveni Ghat Aarti Chants", desc: "Gear up with life jackets for a thrilling 12km white-water river rafting expedition across river Ganga rapids. At 6:00 PM witness highly grand synchronized multi-lamp river banking Aarti at Triveni Ghat." },
-      { title: "Greco-Roman FRI Campus Walk & Dehradun Departure Check-Out", desc: "Drive back to Dehradun plain entries to photograph the spectacular majestic Greco-Roman university structures of Forest Research Institute. Complete travel layouts drop transits to terminal." }
-    ],
+  { 
+    title: "Gorakhpur Departure to Dehradun Terminal & Mussoorie Hill Drive", 
+    desc: "Depart from Gorakhpur to reach Dehradun. Upon arrival, board private uphill transport coaches to reach the Queen of Hills—Mussoorie. Check into your hotel and enjoy a relaxing stroll across the colonial walking tracks of Mussoorie Mall Road." 
+  },
+  { 
+    title: "Kempty Waterfalls Splash & Gun Hill Ropeway Vantage", 
+    desc: "Spend your morning swimming across giant natural pool traps under Kempty Falls cascade streams. In the afternoon, ride high aerial cable cars up to Gun Hill peak to view sweeping Doon Valley layouts." 
+  },
+  { 
+    title: "Mussoorie to Dehradun Robber's Cave Explores & Rishikesh Drive", 
+    desc: "Drive downhill to Dehradun. Wade inside cold water streams flowing inside the dark limestone channels of Robber's Cave (Guchhupani). In the evening, drive into the spiritual hub of Rishikesh yoga city." 
+  },
+  { 
+    title: "White Water River Rafting Rapids & Triveni Ghat Aarti Chants", 
+    desc: "Gear up with life jackets for a thrilling 12km white-water river rafting expedition across river Ganga rapids. At 6:00 PM, witness the highly grand synchronized multi-lamp river banking Aarti at Triveni Ghat." 
+  },
+  { 
+    title: "Greco-Roman FRI Campus Walk & Return Transit to Gorakhpur", 
+    desc: "Drive back to Dehradun plain entries to photograph the spectacular, majestic Greco-Roman university structures of the Forest Research Institute. Complete your travel layouts and luggage check-out followed by a return transit drop back to Gorakhpur." 
+  }
+],
     popularPlaces: [
-      { name: "Kempty Falls, Mussoorie", image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=300&q=80", details: "Iconic high waterfall forming a huge natural swimming pool trap." },
-      { name: "Laxman Jhula, Rishikesh", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "Famous historic suspension pedestrian bridge crossing the holy River Ganga." }
-    ]
+  { 
+    name: "Kempty Falls, Mussoorie", 
+    image: "/uttarakhand/1.jpg", 
+    details: "An iconic high waterfall cascading down mountain rocks, forming a huge popular natural swimming pool area." 
+  },
+  { 
+    name: "Gun Hill Ropeway, Mussoorie", 
+    image: "/uttarakhand/2.jpg", 
+    details: "The second highest peak in Mussoorie, reached via a scenic cable car ropeway ride offering panoramic Himalayan views." 
+  },
+  { 
+    name: "Robber's Cave (Guchhupani), Dehradun", 
+    image: "/uttarakhand/3.jpg", 
+    details: "A unique natural river cave formation where cold water flows inside narrow, towering limestone gorges." 
+  },
+  { 
+    name: "White Water Rafting, Rishikesh", 
+    image: "/uttarakhand/4.jpg", 
+    details: "A thrilling adventure sport navigating turbulent rapids on the holy Ganges River, surrounded by hills." 
+  },
+  { 
+    name: "Triveni Ghat Aarti, Rishikesh", 
+    image: "/uttarakhand/5.jpg", 
+    details: "The biggest and most famous holy ghat on the banks of River Ganga, renowned for its spiritual evening oil lamp ritual." 
+  },
+  { 
+    name: "Forest Research Institute (FRI), Dehradun", 
+    image: "/uttarakhand/6.jpg", 
+    details: "A majestic colonial-era heritage campus showcasing exceptional Greco-Roman style architecture and lush green lawns." 
+  }
+]
+
   },
   {
     id: "himachal-pradesh",
     category: "hillstation",
     title: "Himachal Pradesh Tour Package",
-    image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=600&q=80",
+    image:  "/manali/1.jpg", 
     price: "₹19,999",
     duration: "6 Days / 5 Nights",
     description: "Journey across breathtaking snow valleys of Manali, Solang Valley, and Kullu nodes.",
     overview: "Himachal Pradesh, the 'Land of Snow', offers an unforgettable Alpine holiday centered around the popular tourist hub of Manali and Kullu valleys. Encircled by towering cedar forests, rushing Beas river streams.",
     itinerary: [
-      { title: "Chandigarh Terminal Pickup & Long Kullu Valley Drive", desc: "Meet route specialists at Chandigarh airport. Board alpine transit coaches tracking alongside roaring Beas river bends past Kullu shawl weaving factories to arrive at chilly Manali wood sectors." },
-      { title: "Hadimba Pagoda Wood Temple & Local Manali Mall Walks", desc: "Explore the unique 16th-century wooden tiered Hadimba Temple hidden deep inside ancient tall pine woods. Afternoon open for tasting warm trout foods and woolens shopping at Manali central Mall." },
-      { title: "Solang Valley Adventure Grids & Paragliding Flights", desc: "Full active operational day inside Solang Valley mountain plains. Participate in extreme paragliding flights, outdoor quad biking tracks, zorbing balls, and winter snow ski lines." },
-      { title: "Atal Engineering Tunnel Marvel & Lahaul Cold Desert Excursion", desc: "Cross past the engineering marvel 9.02km Atal Tunnel bypass. Witness instant transformation into raw spectacular snow mountain ranges of Lahaul cold desert. Evening return to Manali." },
-      { title: "Jogini Waterfall Pine Forest Trek & Vashisht Thermal Baths", desc: "A scenic 2km walking forest hike up to the towering vertical cliffs of Jogini Waterfalls. Later relax muscle tiers inside natural hot sulfur medicinal water bathing tanks of Vashisht village." },
-      { title: "Manali Checkout & Scenic Return Drive down to Chandigarh Terminal", desc: "Pack travel bags and complete checkout formalities. Enjoy final panoramic hill view camera captures during return smooth highway down-transits to Chandigarh terminal point." }
-    ],
+  { 
+    title: "Gorakhpur Departure to Chandigarh & Long Kullu Valley Drive", 
+    desc: "Depart from Gorakhpur to reach Chandigarh. Upon arrival, board alpine transit coaches tracking alongside roaring Beas river bends past Kullu shawl weaving factories to arrive at chilly Manali wood sectors." 
+  },
+  { 
+    title: "Hadimba Pagoda Wood Temple & Local Manali Mall Walks", 
+    desc: "Explore the unique 16th-century wooden tiered Hadimba Temple hidden deep inside ancient tall pine woods. Afternoon open for tasting warm trout foods and woolens shopping at Manali central Mall." 
+  },
+  { 
+    title: "Solang Valley Adventure Grids & Paragliding Flights", 
+    desc: "Full active operational day inside Solang Valley mountain plains. Participate in extreme paragliding flights, outdoor quad biking tracks, zorbing balls, and winter snow ski lines." 
+  },
+  { 
+    title: "Atal Engineering Tunnel Marvel & Lahaul Cold Desert Excursion", 
+    desc: "Cross past the engineering marvel 9.02km Atal Tunnel bypass. Witness instant transformation into raw spectacular snow mountain ranges of Lahaul cold desert. Evening return to Manali." 
+  },
+  { 
+    title: "Jogini Waterfall Pine Forest Trek & Vashisht Thermal Baths", 
+    desc: "A scenic 2km walking forest hike up to the towering vertical cliffs of Jogini Waterfalls. Later relax muscle tiers inside natural hot sulfur medicinal water bathing tanks of Vashisht village." 
+  },
+  { 
+    title: "Manali Checkout & Scenic Return Drive back to Gorakhpur", 
+    desc: "Pack travel bags and complete checkout formalities. Enjoy final panoramic hill view camera captures during the smooth down-transits, connecting via Chandigarh for your final return journey back to Gorakhpur." 
+  }
+],
     popularPlaces: [
-      { name: "Solang Valley", image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=300&q=80", details: "Premier hub for paragliding, quad biking, and winter snow skiing." },
-      { name: "Hadimba Temple, Manali", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "A unique 16th-century wooden pagoda temple built inside deep pine woods." }
-    ]
+  { 
+    name: "Hadimba Temple, Manali", 
+    image: "/manali/1.jpg", 
+    details: "A unique 16th-century wooden pagoda-style temple built deep inside dense cedar and pine forests." 
+  },
+  { 
+    name: "Solang Valley Adventure", 
+    image: "/manali/2.jpg", 
+    details: "A premier mountain valley hub famous for thrilling paragliding, quad biking, and winter snow skiing." 
+  },
+  { 
+    name: "Atal Tunnel Marvel", 
+    image: "/manali/3.jpg", 
+    details: "The world's longest highway tunnel above 10,000 feet, showcasing a spectacular feat of modern engineering." 
+  },
+  { 
+    name: "Lahaul Cold Desert Valley", 
+    image: "/manali/4.jpg", 
+    details: "A breathtaking high-altitude valley past the tunnel, featuring barren mountain vistas and snowy terrain." 
+  },
+  { 
+    name: "Jogini Waterfall", 
+    image: "/manali/5.jpg", 
+    details: "A scenic natural waterfall reached via a beautiful pine forest trek, offering tranquil mountain views." 
+  },
+  { 
+    name: "Vashisht Thermal Baths", 
+    image: "/manali/6.jpg", 
+    details: "Natural hot sulfur springs located at an ancient temple village, famous for their skin-healing medicinal properties." 
+  }
+]
+
   },
   {
     id: "tansen",
     category: "hillstation",
     title: "Tansen Tour Package",
-    image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+    image: "/palpa/1.jpg",
     price: "₹12,499",
     duration: "4 Days / 3 Nights",
     description: "Lush Newari architectures setup at heights of hillocks offering pleasant round weather.",
     overview: "Tansen is a charming, historic hill station resting on the slopes of Shreenagar Hills in Palpa district, Nepal. Acting as an old trading post between the plain fields and high mountains.",
-    itinerary: [
-      { title: "Transit to Palpa Hills & Paved Newari Street Walks", desc: "Private vehicular transit climbing up Shreenagar hill loops to reach historic Tansen. Evening walk across traditional paved lanes to view local shops trading patterned hand-woven fabric textiles." },
-      { title: "Palpa Durbar Museum Tour & Shreenagar Pine Peak Walks", desc: "Explore reconstructed grand historical palace complexes of Palpa Durbar acting as regional antique museums. Afternoon walk inside breezy thick pine forest viewpoint parks to trace high snow bands." },
-      { title: "Rani Mahal Cliffside River Palace Excursion", desc: "Challenging off-road valley vehicular transit down to river banks to witness Rani Mahal (The iconic Taj Mahal of Nepal), built out of pure love directly over massive rugged river canyon walls." },
-      { title: "Sitalpati Round House Square & Final Departure Check-Out", desc: "See the unique circular century-old public assembly house structure at Sitalpati town center. Purchase elite local Dhaka gifts before checkout compile and return drops." }
-    ],
-    popularPlaces: [
-      { name: "Palpa Durbar (Tansen Palace)", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "Grand historical palace complex reconstructed as a regional museum." },
-      { name: "Rani Mahal (Taj Mahal of Nepal)", image: "https://images.unsplash.com/photo-1578318285542-a276ec96b412?auto=format&fit=crop&w=300&q=80", details: "Spectacular riverside palace built over massive cliffs out of pure love." }
-    ]
+   itinerary: [
+  { 
+    title: "Gorakhpur Departure to Palpa Hills & Paved Newari Street Walks", 
+    desc: "Depart from Gorakhpur and cross the border via Sonauli into Nepal. Board your private vehicular transit climbing up Shreenagar hill loops to reach historic Tansen (Palpa). In the evening, enjoy a walk across traditional paved lanes to view local shops trading patterned hand-woven fabric textiles." 
+  },
+  { 
+    title: "Palpa Durbar Museum Tour & Shreenagar Pine Peak Walks", 
+    desc: "Explore the reconstructed grand historical palace complexes of Palpa Durbar acting as regional antique museums. In the afternoon, enjoy a scenic walk inside breezy thick pine forest viewpoint parks to trace high snow bands." 
+  },
+  { 
+    title: "Rani Mahal Cliffside River Palace Excursion", 
+    desc: "Embark on a challenging off-road valley vehicular transit down to the river banks to witness Rani Mahal (The iconic Taj Mahal of Nepal), built out of pure love directly over massive rugged river canyon walls." 
+  },
+  { 
+    title: "Sitalpati Round House Square & Return Transit to Gorakhpur", 
+    desc: "See the unique circular century-old public assembly house structure at Sitalpati town center. Purchase elite local Dhaka gifts before checking out, followed by a downhill highway transit drop back across the border to Gorakhpur." 
+  }
+],
+   popularPlaces: [
+  { 
+    name: "Tansen Newari Streets", 
+    image: "/palpa/1.jpg", 
+    details: "Charming cobblestone walkways lined with traditional Newari brick architecture and old hill town trading vibes." 
+  },
+  { 
+    name: "Palpa Durbar Museum", 
+    image: "/palpa/2.jpg", 
+    details: "A grand historic palace complex beautifully reconstructed as a museum showcasing royal hill relics and history." 
+  },
+  { 
+    name: "Shreenagar Pine Peak", 
+    image: "/palpa/3.jpg", 
+    details: "A scenic hilltop pine forest offering refreshing nature walks and wide panoramic views of the Himalayas." 
+  },
+  { 
+    name: "Rani Mahal (Taj Mahal of Nepal)", 
+    image: "/palpa/4.jpg", 
+    details: "A spectacular 19th-century riverside palace built over massive cliffs out of pure love, sitting on the Kali Gandaki River." 
+  },
+  { 
+    name: "Sitalpati Round House Square", 
+    image: "/palpa/5.jpg", 
+    details: "The central octagonal public resting pavilion in Tansen bazaar, serves as a popular cultural and social hub." 
+  }
+]
+
   },
   {
     id: "dhulikhel",
     category: "hillstation",
     title: "Dhulikhel Tour Package",
-    image: "https://images.unsplash.com/photo-1578318285542-a276ec96b412?auto=format&fit=crop&w=600&q=80",
+    image: "/dhulikhel/2.jpg",
     price: "₹14,200",
     duration: "4 Days / 3 Nights",
     description: "Get wide untamed panoramic landscape views of complete eastern Himalayan ranges.",
     overview: "Dhulikhel is an ancient Newari hill town located on the eastern rim of the Kathmandu Valley, Nepal. It has emerged as a premier eco-resort destination, globally celebrated for presenting wide views.",
-    itinerary: [
-      { title: "Kathmandu Valley Exit & Dhulikhel Resort Check-In", desc: "Drive eastwards out of Kathmandu rim grids. Check into premium panoramic eco-resort properties in Dhulikhel. Evening open for camera shots of twilight colors reflecting on high mountains." },
-      { title: "Namo Buddha Cliff Monastery Trekking Experience", desc: "Guided day trek past rural terrace farms up to holy Namo Buddha Monastery cliff tiers. Learn legendary Buddhist histories of a prince sacrificing body parts to save starving wild tigresses." },
-      { title: "Kali Temple 1000-Step Eco Stone Staircase Ascent", desc: "Climb past a detailed 1000-step eco stone staircase track cutting through thick green woods to reach high Kali Temple ridge peaks offering panoramic views stretching towards Everest." },
-      { title: "Old Brick Heritage Courtyards & Return Departure Drop", desc: "Walk past the traditional heritage town core lined with open old brick temples and ancient community water wells. Complete travel billings checkout for private Kathmandu drops." }
-    ],
-    popularPlaces: [
-      { name: "Himalayan Sunrise Viewpoints", image: "https://images.unsplash.com/photo-1578318285542-a276ec96b412?auto=format&fit=crop&w=300&q=80", details: "Vantage points offering views stretching from Annapurna to Everest ranges." },
-      { name: "Namo Buddha Monastery", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80", details: "Highly sacred Buddhist cliff monastery celebrating a legendary historic prince sacrifice." }
-    ]
+   itinerary: [
+  { 
+    title: "Gorakhpur Departure to Dhulikhel Resort Check-In", 
+    desc: "Depart early from Gorakhpur and travel via the Sonauli border into Nepal, driving past the Kathmandu Valley rim grids. Check into your premium panoramic eco-resort property in Dhulikhel. The evening is open for camera shots of twilight colors reflecting on the high mountains." 
+  },
+  { 
+    title: "Namo Buddha Cliff Monastery Trekking Experience", 
+    desc: "Embark on a guided day trek past rural terrace farms up to the holy Namo Buddha Monastery cliff tiers. Learn the legendary Buddhist history of a prince sacrificing his body parts to save starving wild tigresses." 
+  },
+  { 
+    title: "Kali Temple 1000-Step Eco Stone Staircase Ascent", 
+    desc: "Climb past a detailed 1000-step eco stone staircase track cutting through thick green woods to reach the high Kali Temple ridge peaks, offering panoramic views stretching towards the Everest range." 
+  },
+  { 
+    title: "Old Brick Heritage Courtyards & Return Transit to Gorakhpur", 
+    desc: "Walk past the traditional heritage town core lined with open old brick temples and ancient community water wells. Complete your travel billings and resort checkout, followed by a private vehicular return transit drop back to Gorakhpur." 
+  }
+],
+   popularPlaces: [
+  { 
+    name: "Himalayan Sunrise Viewpoints", 
+    image: "/dhulikhel/1.jpg", 
+    details: "Stunning vantage points in Dhulikhel offering breathtaking sunrise views stretching from the Annapurna to the Everest range." 
+  },
+  { 
+    name: "Namo Buddha Monastery", 
+    image: "/dhulikhel/2.jpg", 
+    details: "A highly sacred Buddhist cliffside monastery celebrating a legendary historic prince sacrifice to a starving tigress." 
+  },
+  { 
+    name: "Dhulikhel Kali Temple", 
+    image: "/dhulikhel/3.jpg", 
+    details: "A historic hilltop shrine reached via a challenging 1000-step eco stone staircase ascent, offering grand valley vistas." 
+  },
+  { 
+    name: "Old Newari Brick Courtyards", 
+    image: "/dhulikhel/4.jpg", 
+    details: "Ancient streets and brick houses showcasing intricate traditional Newari wood carvings and rich medieval Nepalese heritage." 
+  }
+]
+
   }
 ];
 
