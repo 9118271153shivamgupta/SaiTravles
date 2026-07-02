@@ -18,14 +18,14 @@ const Navbar = () => {
     <>
       <nav className="bg-white sticky top-0 z-50 shadow-md transition-all duration-300 border-b-2 border-amber-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-24 items-center">
+          <div className="flex justify-between h-30 items-center">
             
             {/* Logo Section */}
             <Link to="/" className="flex items-center gap-3 shrink-0 py-2">
               <img 
                 src="/logo.png" 
                 alt="Shree Sai Travels Logo" 
-                className="h-20 w-auto object-contain"
+                className="h-30 w-auto object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
               />
               

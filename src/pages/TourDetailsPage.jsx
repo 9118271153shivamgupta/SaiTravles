@@ -199,7 +199,7 @@ const TourDetailsPage = () => {
                     </button>
                     {openDay === idx && (
                       <div className="p-5 bg-slate-50/70 text-sm text-slate-600 leading-relaxed border-t border-slate-100 space-y-4">
-                        <p className="text-slate-700  text-[13px] md:text-sm">{day.desc}</p>
+                      <p className="text-slate-700 -[13px] md:text-sm">{day.desc}</p>
                         {idx === 0 && (
                           <div className="w-52 border border-slate-200 rounded overflow-hidden bg-white p-1.5 shadow-sm">
                             <img src={tour.image} alt="Route View" className="w-full h-20 object-cover" />

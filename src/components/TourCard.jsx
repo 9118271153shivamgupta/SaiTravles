@@ -27,7 +27,7 @@ const TourCard = ({ tour, onViewDetails }) => {
         {/* Text Info Area Block */}
         <div className="p-5 flex-1 flex flex-col justify-between">
           <div>
-            <h3 className="text-lg font-black text-slate-900 mb-1.5 group-hover:text-sky-600 transition-colors uppercase tracking-tight">
+            <h3 className="text-lg font-black text-slate-900 mb-1.5 group-hover:text-sky-600 transition-colors  ">
               {tour.title}
             </h3>
             <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed mb-4 font-medium">
