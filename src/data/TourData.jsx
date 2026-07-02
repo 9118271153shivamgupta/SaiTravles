@@ -2,7 +2,8 @@ export const tourCategories = [
   { id: 'domestic', name: 'Domestic' },
   { id: 'international', name: 'International' },
   { id: 'religious', name: 'Religious' },
-  { id: 'hillstation', name: 'Hill Station' }
+  { id: 'hillstation', name: 'Hill Station' },
+  { id: 'nepalTour', name: 'Nepal Tour' }
 ];
 
 export const tourData = [
@@ -1333,8 +1334,462 @@ export const tourData = [
   }
 ]
 
+  },
+  // =================================================================
+  // --- Nepal  Tour CATEGORY ---
+  // =================================================================
+ 
+  {
+    id: "pokhara-kathmandu-chitwan-janakpur",
+    category: "nepalTour",
+    title: "6N - 7D Pokhara - Kathmandu - Chitwan - Janakpur Tour Package",
+    image: "/nepal-tour/4.jpg",
+    price: "Price on Request",
+    duration: "6 Nights / 7 Days",
+    description: "An extensive Nepalese getaway covering historic Kathmandu squares, scenic Pokhara, wild Chitwan, and spiritual Janakpur nodes.",
+   overview: "This standard 6 Nights / 7 Days holiday package perfectly brings together Nepal's most iconic heritage sites, wildlife safari sanctuaries, and deep cultural pilgrimage centers.\n\n" +
+          "📍 ROUTE MAP:\n" +
+          "Gorakhpur → Sunauli → Pokhara → Kathmandu → Chitwan → Janakpur → Sunauli → Gorakhpur\n\n" +
+          "✨ TOUR HIGHLIGHTS:\n" +
+          "• Pokhara Adventure + Sightseeing\n" +
+          "• Kathmandu Heritage Tour\n" +
+          "• Chitwan Jungle Safari\n" +
+          "• Janakpur Janaki Mandir Darshan\n\n" +
+          "🏨 AVAILABLE HOTEL OPTIONS:\n" +
+          "⭐ Budget / Normal\n" +
+          "⭐⭐ Deluxe\n" +
+          "⭐⭐⭐ 3 Star\n" +
+          "⭐⭐⭐⭐ 4 Star\n" +
+          "⭐⭐⭐⭐⭐ 5 Star\n\n" +
+          "⚠️ IMPORTANT INFORMATION:\n" +
+          "• Tour starts & ends in Gorakhpur.\n" +
+          "• Entry via Sunauli Border.\n" +
+          "• Passport / Voter ID required for border crossing.\n" +
+          "• Adventure activities are weather dependent.\n" +
+          "• Muktinath tour is subject to road & weather conditions.",
+    itinerary: [
+  { 
+    title: "Day 1: Gorakhpur → Sunauli → Pokhara", 
+    desc: "Depart early from Gorakhpur and complete border clearances at the Sunauli checkpoint. Proceed with a scenic drive through the hills to reach the beautiful lakeside city of Pokhara. Check into your hotel and enjoy a relaxing evening near Phewa Lake." 
+  },
+  { 
+    title: "Day 2: Pokhara Sightseeing", 
+    desc: "Wake up early for a breathtaking sunrise view over the Annapurna range from Sarangkot hills. After breakfast, enjoy local sightseeing in Pokhara, including Davis Falls, Gupteshwor Mahadev Cave, and a peaceful boat ride to Tal Barahi Temple." 
+  },
+  { 
+    title: "Day 3: Pokhara → Kathmandu", 
+    desc: "Complete your morning checkout formalities and embark on a panoramic highway drive connecting Pokhara to the historic capital valley of Kathmandu. Upon arrival, check into your hotel and spend a leisurely evening exploring the local markets." 
+  },
+  { 
+    title: "Day 4: Kathmandu Heritage Tour", 
+    desc: "Spend a full day exploring the rich cultural heritage of Kathmandu Valley. Visit iconic UNESCO World Heritage sites, including the holy Pashupatinath Temple, the ancient Swayambhunath Stupa (Monkey Temple), and historic Durbar Squares." 
+  },
+  { 
+    title: "Day 5: Kathmandu → Chitwan", 
+    desc: "Drive downhill from the mountain valleys of Kathmandu to the flat subtropical plains of Chitwan. Check into your jungle resort and prepare for an exciting wilderness experience, concluded by a traditional Tharu cultural dance show in the evening." 
+  },
+  { 
+    title: "Day 6: Chitwan → Janakpur", 
+    desc: "Enjoy an early morning wildlife adventure or jungle safari inside Chitwan National Park to spot rare one-horned rhinos and exotic birds. Afterward, check out and drive to the culturally rich, holy city of Janakpurdham for an overnight stay." 
+  },
+  { 
+    title: "Day 7: Janakpur → Drop", 
+    desc: "Visit the magnificent, multi-storied Janaki Mandir to witness its grand architecture and seek blessings. Wrap up your travel memories, complete your checkout, and proceed with a comfortable return transit drop back to Gorakhpur." 
   }
+],
+    popularPlaces: [
+  { 
+    name: "Fewa Lake & Tal Barahi, Pokhara", 
+    image: "/nepal-tour/1.jpg", 
+    details: "A serene freshwater lake perfect for tranquil boat rides leading to the island temple of Tal Barahi." 
+  },
+  { 
+    name: "Sarangkot Sunrise Viewpoint", 
+    image: "/nepal-tour/2.jpg", 
+    details: "A famous hilltop viewpoint offering breathtaking panoramic sunrise vistas over the snow-capped Annapurna range." 
+  },
+  { 
+    name: "Pashupatinath Temple, Kathmandu", 
+    image: "/nepal-tour/3.jpg", 
+    details: "The sacred and historic Hindu temple complex on the banks of Bagmati River, dedicated to Lord Shiva." 
+  },
+  { 
+    name: "Boudhanath Stupa, Kathmandu", 
+    image: "/nepal-tour/4.jpg", 
+    details: "One of the largest spherical Buddhist stupas in the world, radiating immense peace and spiritual vibes." 
+  },
+  { 
+    name: "Kathmandu Durbar Square", 
+    image: "/nepal-tour/5.jpg", 
+    details: "A historic palace plaza showcasing ancient wooden temples, beautiful courtyards, and exceptional Newari craftsmanship." 
+  },
+  { 
+    name: "Chitwan National Park Safari", 
+    image: "/nepal-tour/6.jpg", 
+    details: "A subtropical jungle reserve offering thrilling jeep and elephant safaris to spot rare one-horned rhinos and exotic wildlife." 
+  },
+  { 
+    name: "Janaki Mandir, Janakpur", 
+    image: "/nepal-tour/7.jpg", 
+    details: "A magnificent white temple architecture built in bright Hindu-Rajput style, celebrated as the birthplace of Goddess Sita." 
+  }
+]
+
+  },
+  {
+    id: "pokhara-kathmandu-chitwan",
+    category: "nepalTour",
+    title: "5 Night - 6 Days Pokhara - Kathmandu - Chitwan Tour Package",
+    image: "/nepal-tour/8.jpg",
+    price: "Price on Request",
+    duration: "5 Nights / 6 Days",
+    description: "A perfect fusion of emerald Phewa lakes with ancient shrines and wild jungle safaris.",
+    overview: "This combined holiday package brings together three of Nepal's most popular hubs: the cultural core of Kathmandu, the alpine comfort of Pokhara, and the deep natural wilderness of Chitwan.\n\n" +
+          "📍 ROUTE MAP:\n" +
+          "Gorakhpur → Sunauli → Pokhara → Kathmandu → Chitwan → Sunauli → Gorakhpur\n\n" +
+          "✨ TOUR HIGHLIGHTS:\n" +
+          "• Pokhara + Kathmandu Sightseeing\n" +
+          "• Chitwan National Park Stay\n" +
+          "• Jungle Safari\n" +
+          "• Canoe Ride\n" +
+          "• Wildlife Experience",
+  itinerary: [
+  { 
+    title: "Day 1: Gorakhpur → Sunauli → Pokhara", 
+    desc: "Depart early from Gorakhpur and complete your border crossing clearances at Sunauli. Drive along the scenic winding hill roads to reach the beautiful lake town of Pokhara. Check into your hotel and spend a relaxing evening walking along the vibrant lakeside tourist streets." 
+  },
+  { 
+    title: "Day 2: Pokhara Sightseeing & Phewa Lake Boating", 
+    desc: "Enjoy a breathtaking early morning sunrise over the Annapurna range. Later, explore Pokhara's top attractions including Davis Falls, Gupteshwor Mahadev Cave, and experience a peaceful boat ride on Phewa Lake." 
+  },
+  { 
+    title: "Day 3: Pokhara → Kathmandu", 
+    desc: "Check out from your hotel and embark on a scenic trans-hill highway drive alongside the rushing Trishuli River to reach the capital valley, Kathmandu. Upon arrival, check into your resort block and spend the evening at leisure or exploring Thamel markets." 
+  },
+  { 
+    title: "Day 4: Kathmandu Heritage Tour & Darshan", 
+    desc: "Spend a full day exploring the cultural core of Kathmandu. Seek blessings at the holy Pashupatinath Temple complex and climb the ancient steps of Swayambhunath Stupa (Monkey Temple) to enjoy a panoramic view of the entire valley layout." 
+  },
+  { 
+    title: "Day 5: Kathmandu → Chitwan National Park Arrival", 
+    desc: "Drive downhill from the capital to the flat, lush subtropical plains of Chitwan. Check into your jungle resort and unwind. In the evening, witness an energetic traditional folk stick dance performed by the local Tharu tribal community." 
+  },
+  { 
+    title: "Day 6: Chitwan Jungle Safari & Wildlife Experience", 
+    desc: "Immerse yourself in a full day of wilderness activities. Enjoy a peaceful canoe ride along the river and set out on an exciting morning wildlife jungle safari or track through dense grasslands to spot rare one-horned rhinos, exotic birds, and wildlife." 
+  },
+  { 
+    title: "Day 7: Chitwan → Sunauli → Return to Gorakhpur", 
+    desc: "Pack your bags and complete resort checkout formalities. Head out for a smooth return highway journey crossing back through the Sunauli border, concluding your premium holiday with a comfortable drop transit back to Gorakhpur." 
+  }
+],
+    popularPlaces: [
+  { 
+    name: "Phewa Lake & Boating, Pokhara", 
+    image: "/nepal-tour/8.jpg", 
+    details: "A beautiful, serene freshwater lake reflecting the snowy Annapurna range, perfect for relaxing evening boat rides." 
+  },
+  { 
+    name: "Davis Falls, Pokhara", 
+    image: "/nepal-tour/9.jpg", 
+    details: "A unique natural waterfall where rushing water streams plunge into a deep, mysterious underground volcanic rock tunnel." 
+  },
+  { 
+    name: "Pashupatinath Temple, Kathmandu", 
+    image: "/nepal-tour/10.jpg", 
+    details: "One of the most sacred and historic Hindu temple complexes in the world, standing on the holy banks of the Bagmati River." 
+  },
+  { 
+    name: "Swayambhunath Stupa, Kathmandu", 
+    image: "/nepal-tour/11.jpg", 
+    details: "An ancient, iconic golden dome structure atop a hill, popular for its historic spiritual vibes and panoramic valley views." 
+  },
+  { 
+    name: "Chitwan National Park Stay", 
+    image: "/nepal-tour/12.jpg", 
+    details: "Lush green subtropical forest reserves offering immersive stays, canoe rides, and thrilling wildlife tracking experiences." 
+  },
+  { 
+    name: "Tharu Cultural Center, Chitwan", 
+    image: "/nepal-tour/13.jpg", 
+    details: "Experience local ethnic lifestyle showcases, unique tribal arts, and highly energetic traditional Tharu stick dancing." 
+  }
+]
+  },
+  {
+    id: "pokhara-muktinath-kathmandu",
+    category: "nepalTour",
+    title: "5 Night - 6 Days Pokhara - Muktinath - Kathmandu Tour Package",
+    image: "/nepal-tour/14.jpg", 
+    price: "Price on Request",
+    duration: "5 Nights / 6 Days",
+    description: "High altitude sacred pilgrimage trek tracking raw Muktinath temple walls via Pokhara grids.",
+    overview: "A highly spiritual and adventurous route mapping together the heritage icons of Kathmandu valley with the sacred 108 waterspouts of high altitude Muktinath temple borders in Mustang.\n\n" +
+          "📍 ROUTE MAP:\n" +
+          "Gorakhpur → Sunauli → Pokhara → Muktinath → Pokhara → Kathmandu → Sunauli → Gorakhpur\n\n" +
+          "✨ TOUR HIGHLIGHTS:\n" +
+          "• Pokhara + Kathmandu Sightseeing\n" +
+          "• Muktinath Temple Darshan\n" +
+          "• Scenic Himalayan Route Experience",
+    itinerary: [
+  { 
+    title: "Day 1: Gorakhpur → Sunauli → Pokhara", 
+    desc: "Depart early from Gorakhpur and travel through the Sunauli border to enter Nepal. Enjoy a scenic mountain highway drive to reach the beautiful lake city of Pokhara for your overnight night stay." 
+  },
+  { 
+    title: "Day 2: Pokhara Local Sightseeing", 
+    desc: "Spend your day exploring the alpine charm of Pokhara. Catch a magnificent sunrise over the Annapurna range from Sarangkot, and visit Davis Falls, Gupteshwor Mahadev Cave, and enjoy a boat ride on Phewa Lake." 
+  },
+  { 
+    title: "Day 3: Pokhara → Muktinath", 
+    desc: "Check out early and embark on an adventurous high-altitude trans-hill journey navigating past deep river gorges and rugged mountain terrains to reach the sacred Muktinath territory in Mustang." 
+  },
+  { 
+    title: "Day 4: Muktinath Temple Darshan → Pokhara", 
+    desc: "Perform holy rituals and take a sacred bath under the 108 running water spouts of the Muktinath Temple complex. After capturing spectacular Himalayan peak vistas, drive back downhill to return to Pokhara." 
+  },
+  { 
+    title: "Day 5: Pokhara → Kathmandu", 
+    desc: "Drive across winding scenic mountain highways alongside rushing river beds to connect from Pokhara valleys to the ancient capital heritage core of Kathmandu. Enjoy your evening at leisure." 
+  },
+  { 
+    title: "Day 6: Kathmandu Sightseeing → Drop", 
+    desc: "Explore historic UNESCO structures like Pashupatinath Temple or Boudhanath Stupa in the morning. Wrap up your checking formats, complete souvenir shopping, and proceed with your final return transit drop back to Gorakhpur." 
+  }
+],
+
+popularPlaces: [
+  { 
+    name: "Muktinath Temple Complex, Mustang", 
+    image: "/nepal-tour/14.jpg", 
+    details: "A highly sacred multi-faith pilgrimage arena set against desert mountain backdrops, featuring 108 holy brass wall spouts." 
+  },
+  { 
+    name: "Phewa Lake & Sarangkot, Pokhara", 
+    image: "/nepal-tour/15.jpg", 
+    details: "A pristine freshwater lake overlooked by Sarangkot hill ridge, globally famous for dramatic, clear morning Himalayan sunrises." 
+  },
+  { 
+    name: "Pashupatinath Temple, Kathmandu", 
+    image: "/nepal-tour/10.jpg", 
+    details: "An exceptionally grand and historic Hindu heritage temple standing directly on the holy banks of the Bagmati River." 
+  },
+  { 
+    name: "Boudhanath Stupa, Kathmandu", 
+    image: "/nepal-tour/11.jpg", 
+    details: "One of the largest spherical stupas in the world decorated with prayer flags, acting as a major global epicenter for Buddhism." 
+  }
+]
+  },
+  {
+    id: "pokhara-kathmandu",
+    category: "nepalTour",
+    title: "4 Night - 5 Days Pokhara - Kathmandu Tour Package",
+    image: "/nepal-tour/21.jpg", 
+    price: "Price on Request",
+    duration: "4 Nights / 5 Days",
+    description: "An elegant compact tour spanning mountain viewpoints, old palace plazas, and alpine lakes.",
+    overview: "This standard package covers the two largest cities of Nepal. It is specifically designed for travelers looking to experience urban heritage combined with stunning views of the central Annapurna Himalayan walls.\n\n" +
+          "📍 ROUTE MAP:\n" +
+          "Gorakhpur → Sunauli → Pokhara → Kathmandu → Sunauli → Gorakhpur\n\n" +
+          "✨ TOUR HIGHLIGHTS:\n" +
+          "• Pokhara + Kathmandu Sightseeing\n" +
+          "• Sarangkot Sunrise (Optional)\n" +
+          "• Temples & Heritage Tour\n" +
+          "• Paragliding / Cable Car (Optional)",
+   itinerary: [
+  { 
+    title: "Day 1: Gorakhpur → Sunauli → Pokhara", 
+    desc: "Depart early from Gorakhpur and complete border crossings via Sunauli checkpoints. Drive alongside lush green hills to check into your lakeside hotel blocks in Pokhara for an overnight stay." 
+  },
+  { 
+    title: "Day 2: Pokhara Local Sightseeing", 
+    desc: "Wake up early for a spectacular mountain sunrise view over the Annapurna range from Sarangkot peak blocks. In the afternoon, explore Pokhara highlights, including the dark mystical rock paths of Gupteshwor Mahadev Cave and Davis Falls." 
+  },
+  { 
+    title: "Day 3: Pokhara → Kathmandu", 
+    desc: "Complete your checkout and embark on an inter-city valley highway drive past traditional terraced rice farms to reach the Kathmandu capital gates. Enjoy an evening exploring the vibrant shopping lanes of Thamel bazaar." 
+  },
+  { 
+    title: "Day 4: Kathmandu Heritage Tour", 
+    desc: "Spend a full day exploring Kathmandu's urban heritage. Photograph the historical royal palace courtyards at Kathmandu Durbar Square and visit the ancient stone steps of Swayambhunath temple alongside holy Pashupatinath shrines." 
+  },
+  { 
+    title: "Day 5: Kathmandu → Drop", 
+    desc: "Gather local traditional gifts like Dhaka clothes or brass crafts. Complete your resort checkout formats followed by a smooth downhill highway return transit drop back to Gorakhpur." 
+  }
+],
+
+popularPlaces: [
+  { 
+    name: "Sarangkot Viewpoint, Pokhara", 
+    image: "/nepal-tour/18.jpg", 
+    details: "A world-famous hilltop ridge offering dramatic, clear morning views of Mount Machhapuchhre and Annapurna." 
+  },
+  { 
+    name: "Gupteshwor Mahadev Cave, Pokhara", 
+    image: "/nepal-tour/19.jpg", 
+    details: "A revered underground river cave temple housing a natural stalagmite Shiva Lingam opposite Davis Falls." 
+  },
+  { 
+    name: "Thamel Markets, Kathmandu", 
+    image: "/nepal-tour/20.jpg", 
+    details: "A lively, energetic commercial tourist hub packed with multi-cuisine cafes, trek gear shops, and handicraft lanes." 
+  },
+  { 
+    name: "Kathmandu Durbar Square", 
+    image: "/nepal-tour/21.jpg", 
+    details: "A spectacular UNESCO World Heritage plaza showcasing ancient royal palaces, intricate courtyards, and traditional wood-carved temples." 
+  }
+]
+  },
+  {
+    id: "pokhara-muktinath-short",
+    category: "nepalTour",
+    title: "3 Night - 4 Days Pokhara - Muktinath Tour Package",
+    image: "/nepal-tour/14.jpg",
+    price: "Price on Request",
+    duration: "3 Nights / 4 Days",
+    description: "A fast-track spiritual journey curated to reach high altitude Muktinath shrines via Pokhara.",
+    overview: "A fast-track spiritual journey curated to reach high altitude Muktinath shrines via Pokhara, designed for travelers looking for a dedicated mountain route.\n\n" +
+          "📍 ROUTE MAP:\n" +
+          "Gorakhpur → Sunauli → Pokhara → Muktinath → Pokhara → Sunauli → Gorakhpur\n\n" +
+          "✨ TOUR HIGHLIGHTS:\n" +
+          "• Pokhara Sightseeing\n" +
+          "• Scenic Himalayan Road Journey\n" +
+          "• Muktinath Temple Darshan\n" +
+          "• Mountain & Valley Views",
+    itinerary: [
+  { 
+    title: "Day 1: Gorakhpur → Sunauli Border → Pokhara", 
+    desc: "Depart early from Gorakhpur and complete your border crossing clearances at the Sunauli Border checkpoint. Travel up the scenic mountain highways to reach the beautiful lake town of Pokhara for your overnight night stay." 
+  },
+  { 
+    title: "Day 2: Pokhara Local Sightseeing", 
+    desc: "Spend a full day exploring Pokhara. Catch a magnificent sunrise view over the Annapurna range from Sarangkot, enjoy a peaceful boat ride to Tal Barahi Temple on Phewa Lake, and visit the historic Bindhyabasini Temple structures." 
+  },
+  { 
+    title: "Day 3: Pokhara → Muktinath Darshan", 
+    desc: "Embark on an adventurous mountain transit or flight tracking through the deep rocky corridors of Mustang district to reach Jomsom and ascend to the sacred Muktinath shrine steps. Complete holy water sprinkling under the 108 spouts before returning to Pokhara for an overnight stay." 
+  },
+  { 
+    title: "Day 4: Pokhara → Drop", 
+    desc: "Complete your hotel checkouts and enjoy any final camera shots of the lakeside scenery. Conclude your high-altitude tour with a private vehicular drive back across the border to the Gorakhpur drop terminal." 
+  }
+],
+
+popularPlaces: [
+  { 
+    name: "Muktinath Temple Complex, Mustang", 
+    image: "/nepal-tour/14.jpg", 
+    details: "A high-altitude multi-faith pilgrimage center set against raw mountain desert grids, featuring 108 sacred running water wall spouts." 
+  },
+  { 
+    name: "Tal Barahi Temple, Pokhara", 
+    image: "/nepal-tour/23.jpg", 
+    details: "A unique two-storied pagoda style temple structure sitting gracefully on a tiny green island in the center of Phewa Lake." 
+  },
+  { 
+    name: "Jomsom Mountain Trails", 
+    image: "/nepal-tour/24.jpg", 
+    details: "A raw valley town acting as the gateway to Mustang, offering heavy wind drafts, local apple orchards, and steep snowy peak vistas." 
+  },
+  { 
+    name: "Bindhyabasini Temple, Pokhara", 
+    image: "/nepal-tour/25.jpg", 
+    details: "An ancient white-domed hilltop shrine dedicated to Goddess Durga, providing wide panoramic viewpoints of the city and mountain borders." 
+  }
+]
+  },
+  {
+    id: "kathmandu-short",
+    category: "nepalTour",
+    title: "2 Night - 3 Days Kathmandu Tour Package",
+    image: "/nepal-tour/10.jpg",
+    price: "Price on Request",
+    duration: "2 Nights / 3 Days",
+    description: "A crisp weekender package mapping out the most popular temples and heritage hubs of Kathmandu.",
+    overview: "A crisp weekender package mapping out the most popular temples and heritage hubs of Kathmandu, focused entirely on the historic, spiritual, and artistic landmarks inside the Kathmandu Valley rim.\n\n" +
+          "📍 ROUTE MAP:\n" +
+          "Gorakhpur → Sunauli → Kathmandu → Sunauli → Gorakhpur\n\n" +
+          "✨ TOUR HIGHLIGHTS:\n" +
+          "• Pashupatinath Temple\n" +
+          "• Boudhanath Stupa\n" +
+          "• Swayambhunath (Monkey Temple)\n" +
+          "• Kathmandu Durbar Square\n" +
+          "• Chandragiri Cable Car (Optional)",
+    itinerary: [
+  { 
+    title: "Day 1: Gorakhpur → Sunauli Border → Kathmandu", 
+    desc: "Depart early from Gorakhpur for a long-distance highway drive crossing the Sunauli Border checkpoint. Drive up the scenic mountain loops directly into the Kathmandu valley for a comfortable resort check-in and night stay." 
+  },
+  { 
+    title: "Day 2: Kathmandu Full Day Sightseeing", 
+    desc: "Spend your full day covering the iconic spiritual and heritage centers of Kathmandu. Visit the sacred rituals at Pashupatinath Temple, walk the colossal dome circles of Boudhanath Stupa, and climb the ancient steps of Swayambhunath (Monkey Temple) overlooking the valley." 
+  },
+  { 
+    title: "Day 3: Kathmandu → Drop", 
+    desc: "Explore the stunning stone architecture and heritage zones of Kathmandu Durbar Square or Patan Durbar Square in the morning. Complete your luggage check-out routines followed by a smooth downhill return highway drive back to the Gorakhpur drop terminal." 
+  }
+],
+
+popularPlaces: [
+  { 
+    name: "Pashupatinath Temple, Kathmandu", 
+    image: "/nepal-tour/10.jpg", 
+    details: "A sacred Hindu temple complex standing directly on the holy banks of the Bagmati River, rich in ancient rituals and heritage." 
+  },
+  { 
+    name: "Boudhanath Stupa, Kathmandu", 
+    image: "/nepal-tour/4.jpg", 
+    details: "One of the largest spherical stupas in the world, decorated with prayer flags and acting as a major global epicenter for Buddhism." 
+  },
+  { 
+    name: "Swayambhunath Stupa, Kathmandu", 
+    image: "/nepal-tour/1.jpg", 
+    details: "An ancient, iconic golden dome structure atop a hill, popularly known as the Monkey Temple, offering panoramic valley views." 
+  },
+  { 
+    name: "Kathmandu Durbar Square", 
+    image: "/nepal-tour/21.jpg", 
+    details: "A spectacular UNESCO World Heritage plaza showcasing ancient Malla royal palaces, intricate courtyards, and traditional wood-carved architecture." 
+  }
+]
+  },
+  // {
+  //   id: "pokhara-short",
+  //   category: "nepalTour",
+  //   title: "2 Night - 3 Days Pokhara Tour Package",
+  //   image: "/nepal/pokhara-short.jpg",
+  //   price: "Price on Request",
+  //   duration: "2 Nights / 3 Days",
+  //   description: "A fast, relaxing mountain lakeside retreat focused completely around Pokhara valleys.",
+  //   overview: "A time-saving vacation plan centered around the beautiful lake town of Pokhara, offering refreshing mountain views and relaxing boat rides.",
+  //   itinerary: [
+  //     { 
+  //       title: "Gorakhpur to Pokhara Direct Highway Drive", 
+  //       desc: "Depart from Gorakhpur tracking hill paths via Sonauli border directly to Pokhara. Check into your hotel near the lake shores." 
+  //     },
+  //     { 
+  //       title: "Sarangkot Sunrise, Phewa Boat Rides & Local Sightseeing", 
+  //       desc: "Catch clear early morning sunrises from Sarangkot. Spend the afternoon boating across Phewa Lake and visiting local waterfalls." 
+  //     },
+  //     { 
+  //       title: "Morning Bindhyabasini Darshan & Return Transit to Gorakhpur", 
+  //       desc: "Visit the historic mountaintop Bindhyabasini temple. Pack bags and proceed with a comfortable return drive back to Gorakhpur." 
+  //     }
+  //   ],
+  //   popularPlaces: [
+  //     { 
+  //       name: "Bindhyabasini Temple, Pokhara", 
+  //       image: "/nepal/bindhyabasini.jpg", 
+  //       details: "An old, white-domed temple complex dedicated to Goddess Durga, located on a hilltop with great city views." 
+  //     }
+  //   ]
+  // },
+
 ];
+
 
 
 

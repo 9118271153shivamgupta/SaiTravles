@@ -4,6 +4,7 @@ export const navLinks = [
   { name: "International Tour", path: "/international-tour" },
   { name: "Religious Tour", path: "/religious-tour" },
   { name: "Hill Station Tour", path: "/hill-station-tour" },
+  { name: "Nepal Tour", path: "/nepal-tour" },
   { name: "Cab Booking", path: "/cab-booking" },
 ];
 

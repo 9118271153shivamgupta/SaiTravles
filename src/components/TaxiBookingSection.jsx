@@ -87,12 +87,12 @@ const TaxiBookingSection = () => {
                     {/* Footer Action Buttons */}
                     <div className="space-y-4 pt-4 border-t border-slate-100">
                       <div className="grid grid-cols-2 gap-3">
-                        <button 
+                        {/* <button 
                           onClick={() => alert(`Details view for: ${vehicle.name}`)}
                           className="bg-slate-100 hover:bg-slate-200 text-slate-700 font-black text-xs py-3 rounded-xl transition-colors text-center cursor-pointer uppercase tracking-wider"
                         >
                           View Details
-                        </button>
+                        </button> */}
                         
                         <button 
                           onClick={() => handleBookingTrigger(vehicle.name)}

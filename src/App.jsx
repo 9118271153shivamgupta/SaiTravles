@@ -16,6 +16,7 @@ import ContactUs from './pages/ContactUs'
 import Certificate from './pages/Certificate'
 import TourDetailsPage from './pages/TourDetailsPage'
 import Footer from './components/Footer'
+import NepalTour from './pages/NepalTour'
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="/international-tour" element={<InternationalTour />} />
         <Route path="/religious-tour" element={<ReligiousTour />} />
         <Route path="/hill-station-tour" element={<HillStationTour />} />
+        <Route path="/nepal-tour" element={<NepalTour />} />
         <Route path="/cab-booking" element={<CabBooking />} />
         
         {/* Top Bar Links */}

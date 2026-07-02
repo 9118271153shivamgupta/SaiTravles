@@ -6,7 +6,7 @@ export const vehicleCategories = [
     vehicles: [
       {
         name: "Honda Amaze",
-        image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600", // placeholder mapping for clean look
+        image: "/vehicle/1.jpg",
         duration: "Per Day Basis",
         description: "Elegant sedan perfect for small families, offering amazing comfort and large boot space.",
         price: "₹2,500",
@@ -14,7 +14,7 @@ export const vehicleCategories = [
       },
       {
         name: "Swift Dzire",
-        image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
+        image: "/vehicle/2.jpg",
         duration: "Per Day Basis",
         description: "The most trusted economical sedan for city rides and quick weekend getaways.",
         price: "₹2,200",
@@ -22,7 +22,7 @@ export const vehicleCategories = [
       },
       {
         name: "Maruti Ertiga",
-        image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&q=80&w=600",
+        image: "/vehicle/3.jpg",
         duration: "Flexible Route",
         description: "Comfortable 7-seater MUV budget option for family trips and luggage convenience.",
         price: "₹3,500",
@@ -37,7 +37,7 @@ export const vehicleCategories = [
     vehicles: [
       {
         name: "Jaguar XF",
-        image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=600",
+        image: "/vehicle/4.jpg",
         duration: "Event / Wedding",
         description: "Ultimate luxury and royal presence to make a grand entry on your special occasions.",
         price: "₹18,000",
@@ -45,7 +45,7 @@ export const vehicleCategories = [
       },
       {
         name: "Toyota Innova Crysta",
-        image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=600",
+        image: "/vehicle/5.jpg",
         duration: "Premium Travel",
         description: "Top-notch premium comfort with executive captain seats for VIP delegates and families.",
         price: "₹4,500",
@@ -53,7 +53,7 @@ export const vehicleCategories = [
       },
       {
         name: "Audi A4",
-        image: "https://images.unsplash.com/photo-1606152421802-db97b9c7a11b?auto=format&fit=crop&q=80&w=600",
+        image: "/vehicle/6.jpg",
         duration: "Luxury Segment",
         description: "Sophisticated German engineering offering high-end luxury interiors and premium status.",
         price: "₹15,000",
@@ -68,7 +68,7 @@ export const vehicleCategories = [
     vehicles: [
       {
         name: "Premium AC Coach",
-        image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=600",
+        image: "/vehicle/7.jpg",
         duration: "Intercity Tour",
         description: "Fully air-conditioned luxury pushback seats with advanced suspension for group tours.",
         price: "₹14,000",
@@ -76,7 +76,7 @@ export const vehicleCategories = [
       },
       {
         name: "Ultra Luxury Sleeper Bus",
-        image: "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&q=80&w=600",
+        image: "/vehicle/8.jpg",
         duration: "Overnight Route",
         description: "Individual luxury berths with charging points, ambient lighting, and high safety dynamics.",
         price: "₹18,500",
@@ -91,7 +91,7 @@ export const vehicleCategories = [
     vehicles: [
       {
         name: "15 Seater Luxury Traveller",
-        image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&q=80&w=600",
+        image: "/vehicle/9.jpg",
         duration: "Outstation Tour",
         description: "Modified luxury interior layout, premium audio system, roof lighting and ample boot storage.",
         price: "₹5,500",
@@ -99,7 +99,7 @@ export const vehicleCategories = [
       },
       {
         name: "12 Seater Executive Cab",
-        image: "https://images.unsplash.com/photo-1562620658-941865c363d6?auto=format&fit=crop&q=80&w=600",
+        image: "/vehicle/10.jpg",
         duration: "Custom Route",
         description: "Ultra-premium captain configuration seats, dynamic AC vents, and massive legroom area.",
         price: "₹4,800",
